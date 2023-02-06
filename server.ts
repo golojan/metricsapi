@@ -13,8 +13,9 @@ server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 
 const allowedOrigins: string[] = [
-  "http://localhost:3000",
-  "http://yourapp.com",
+  "https://esut.metrics.ng/",
+  "https://owner.metrics.ng/",
+  "https://metrics.ng/",
 ];
 
 server.use(
@@ -35,7 +36,6 @@ server.use(
     },
   })
 );
-
 
 server.use(
   helmet({
