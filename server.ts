@@ -5,9 +5,8 @@ import cors from "cors";
 import helmet from "helmet";
 import { dbCon } from "./models";
 
-import apiRouter from "./routers/api.router";
-import schoolsRouter from "routers/schools.router";
-import homeRouter from "routers/home.router";
+import apiRouter from "./routers/schools";
+import homeRouter from "./routers/home";
 
 const server: Express = express();
 server.use(express.json());
@@ -25,9 +24,8 @@ server.use(
   })
 );
 
+server.use("/api", homeRouter);
 server.use("/", homeRouter);
-server.use("/api", apiRouter);
-server.use("/api/schools", schoolsRouter);
 
 const port = process.env.PORT || 3000;
 const { MONGOOSE_URI } = process.env;
