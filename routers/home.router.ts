@@ -4,13 +4,13 @@ import { getAccounts } from "../controllers/accounts.controller";
 const router = Router();
 
 router.get("/", async (req: Request, res: Response) => {
-  res.json({
+  res.send({
     status: false,
     error: "Invalid API GET call",
   });
 });
 router.post("/", (req: Request, res: Response) => {
-  res.json({
+  res.send({
     status: false,
     error: "Invalid API POST call",
   });
