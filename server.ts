@@ -11,15 +11,31 @@ import homeRouter from "./routers/home";
 const server: Express = express();
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
+
+const allowedOrigins: string[] = [
+  "http://localhost:3000",
+  "http://yourapp.com",
+];
+
 server.use(
   cors({
-    origin: [
-      "https://esut.metrics.ng/",
-      "https://owner.metrics.ng/",
-      "https://metrics.ng/",
-    ],
+    origin: (
+      origin: string | undefined,
+      callback: (err: Error | null, allow?: boolean) => void
+    ) => {
+      if (!origin) {
+        return callback(null, true);
+      }
+      if (allowedOrigins.indexOf(origin) === -1) {
+        const msg =
+          "The CORS policy for this site does not allow access from the specified Origin.";
+        return callback(new Error(msg), false);
+      }
+      return callback(null, true);
+    },
   })
 );
+
 
 server.use(
   helmet({
