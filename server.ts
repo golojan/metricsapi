@@ -25,7 +25,7 @@ server.use(
   })
 );
 
-server.get("/", homeRouter);
+server.use("/", homeRouter);
 server.use("/api", apiRouter);
 server.use("/api/schools", schoolsRouter);
 
