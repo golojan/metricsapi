@@ -1,14 +1,12 @@
 // api controllers
 
-import { Request, Response, NextFunction } from "express";
+import { Request, Response } from "express";
 import { dbCon } from "./../models";
 
-export const getAccounts = async (
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => {
+const getAccounts = async (req: Request, res: Response) => {
   const { Accounts } = await dbCon();
   const accounts = await Accounts.find({});
-  res.json({ account: accounts });
+  res.send({ account: accounts });
 };
+
+export { getAccounts };

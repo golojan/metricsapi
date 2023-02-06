@@ -7,11 +7,8 @@ apiRouter.get("/", (req: Request, res: Response, next: NextFunction) => {
   res.send("Hello API!");
 });
 
-apiRouter.get(
-  "/accounts",
-  async (req: Request, res: Response, next: NextFunction) => {
-    getAccounts(req, res, next);
-  }
-);
+apiRouter.get("/accounts", async (req: Request, res: Response) => {
+  getAccounts(req, res);
+});
 
 export default apiRouter;

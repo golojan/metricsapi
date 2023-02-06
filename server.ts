@@ -6,6 +6,8 @@ import helmet from "helmet";
 import { dbCon } from "./models";
 
 import apiRouter from "./routers/api.router";
+import schoolsRouter from "routers/schools.router";
+import homeRouter from "routers/home.router";
 
 const server: Express = express();
 server.use(express.json());
@@ -23,13 +25,9 @@ server.use(
   })
 );
 
+server.get("/", homeRouter);
 server.use("/api", apiRouter);
-
-server.get("/", async (req: Request, res: Response) => {
-  const { Accounts } = await dbCon();
-  const accounts = await Accounts.find();
-  res.json({ message: "Hello World", accounts: accounts });
-});
+server.use("/api/schools", schoolsRouter);
 
 const port = process.env.PORT || 3000;
 const { MONGOOSE_URI } = process.env;
