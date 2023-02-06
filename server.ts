@@ -5,7 +5,7 @@ import cors from "cors";
 import helmet from "helmet";
 import { dbCon } from "./models";
 
-import apiRouter from "./routers/schools";
+import schoolsRouter from "./routers/schools";
 import homeRouter from "./routers/home";
 
 const server: Express = express();
@@ -24,6 +24,7 @@ server.use(
   })
 );
 
+server.use("/api/schools", schoolsRouter);
 server.use("/api", homeRouter);
 server.use("/", homeRouter);
 
