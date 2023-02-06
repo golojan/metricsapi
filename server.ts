@@ -13,13 +13,15 @@ server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 
 const allowedOrigins: string[] = [
-  "https://esut.metrics.ng/",
-  "https://owner.metrics.ng/",
-  "https://metrics.ng/",
+  "https://esut.metrics.ng",
+  "https://owner.metrics.ng",
+  "https://metrics.ng",
 ];
 
 server.use(
   cors({
+    optionsSuccessStatus: 200,
+    credentials: true,
     origin: (
       origin: string | undefined,
       callback: (err: Error | null, allow?: boolean) => void
