@@ -4,11 +4,9 @@ import express, { Express, Request, Response } from "express";
 import cors from "cors";
 import helmet from "helmet";
 
-import { dbCon } from "./models";
-
 import schoolsRouter from "./routers/schools";
 import homeRouter from "./routers/home";
-import accountsRouter from "routers/accounts";
+import accountsRouter from "./routers/accounts";
 
 const server: Express = express();
 server.use(express.json());
