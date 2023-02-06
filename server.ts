@@ -3,6 +3,7 @@ config();
 import express, { Express, Request, Response } from "express";
 import cors from "cors";
 import helmet from "helmet";
+import { dbCon } from "./models";
 
 import apiRouter from "./routers/api.router";
 
@@ -24,8 +25,10 @@ server.use(
 
 server.use("/api", apiRouter);
 
-server.get("/", (req: Request, res: Response) => {
-  res.json({ message: "Hello World" });
+server.get("/", async (req: Request, res: Response) => {
+  const { Accounts } = await dbCon();
+  const accounts = await Accounts.find();
+  res.json({ message: "Hello World", accounts: accounts });
 });
 
 const port = process.env.PORT || 3000;
