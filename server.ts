@@ -11,10 +11,13 @@ import homeRouter from "./routers/home";
 const server: Express = express();
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
-
 server.use(
   cors({
-    origin: "metrics.ng",
+    origin: [
+      "https://esut.metrics.ng/",
+      "https://owner.metrics.ng/",
+      "https://metrics.ng/",
+    ],
   })
 );
 
