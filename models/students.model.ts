@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 mongoose.Promise = global.Promise;
-import { Gender, StudentType } from '@metricsai/metrics-interfaces';
+import { Gender, StudentType } from '../libs/interfaces';
 
 const studentsScheme = new mongoose.Schema(
   {

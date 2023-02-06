@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { AccountTypes, Gender, MembershipTypes } from '@metricsai/metrics-interfaces';
+import { AccountTypes, Gender, MembershipTypes } from '../libs/interfaces';
 
 mongoose.Promise = global.Promise;
 const mrcsScheme = new mongoose.Schema(

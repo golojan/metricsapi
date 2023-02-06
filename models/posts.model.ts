@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 mongoose.Promise = global.Promise;
-import { PostFeedTypes } from '@metricsai/metrics-interfaces';
+import { PostFeedTypes } from '../libs/interfaces';
 
 const postScheme = new mongoose.Schema(
   {

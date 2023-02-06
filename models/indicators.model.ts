@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { ICriteria } from '@metricsai/metrics-interfaces';
+import { ICriteria } from "../libs/interfaces";
 
 mongoose.Promise = global.Promise;
 

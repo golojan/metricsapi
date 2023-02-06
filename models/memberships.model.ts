@@ -18,3 +18,4 @@ if (mongoose.models.Memberships) {
 }
 const Memberships = mongoose.model('Memberships', membershipsSchema);
 export default Memberships;
+ 

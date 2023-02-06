@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-// import { AccreditationTypes } from '@metricsai/metrics-interfaces';
 mongoose.Promise = global.Promise;
 
 const schoolDepartmentsScheme = new mongoose.Schema(

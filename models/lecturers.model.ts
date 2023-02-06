@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 mongoose.Promise = global.Promise;
-import { LecturerType, LecturerLevel } from '@metricsai/metrics-interfaces';
+import { LecturerType, LecturerLevel } from '../libs/interfaces';
 
 const lecturersScheme = new mongoose.Schema(
   {

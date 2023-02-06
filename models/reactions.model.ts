@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { PostFeedTypes } from '@metricsai/metrics-interfaces';
+import { PostFeedTypes } from '../libs/interfaces';
 
 mongoose.Promise = global.Promise;
 
