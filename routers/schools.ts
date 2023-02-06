@@ -24,7 +24,7 @@ schoolsRouter.get(
         data: school,
       });
     } else {
-      res.status(404).json({ status: false, err: "Account not found" });
+      res.status(404).json({ status: false, err: "School not found" });
     }
   }
 );
@@ -41,10 +41,28 @@ schoolsRouter.get("/list", async (req: Request, res: Response) => {
       data: schools,
     });
   } else {
-    res.status(404).json({ status: false, err: "Account not found" });
+    res.status(404).json({ status: false, err: "School not found" });
   }
 });
 
+// List Schools with schoolId
+schoolsRouter.get("/:schoolId/info", async (req: Request, res: Response) => {
+  const catcher = (error: Error) =>
+    res.status(400).json({ status: 0, error: error });
+  const schoolId = req.params.schoolId;
+  const { Schools } = await dbCon();
+  const schools = await Schools.find({
+    _id: schoolId,
+  }).catch(catcher);
+  if (schools) {
+    res.status(200).json({
+      status: true,
+      data: schools,
+    });
+  } else {
+    res.status(404).json({ status: false, err: "School not found" });
+  }
+});  
 
 
 

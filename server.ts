@@ -24,8 +24,7 @@ server.use(
   })
 );
 
-server.use("/api/schools", schoolsRouter);
-server.use("/api", homeRouter);
+server.use("/schools", schoolsRouter);
 server.use("/", homeRouter);
 
 const port = process.env.PORT || 3000;
