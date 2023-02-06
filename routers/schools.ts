@@ -29,4 +29,25 @@ schoolsRouter.get(
   }
 );
 
+// List Schools
+schoolsRouter.get("/list", async (req: Request, res: Response) => {
+  const catcher = (error: Error) =>
+    res.status(400).json({ status: 0, error: error });
+  const { Schools } = await dbCon();
+  const schools = await Schools.find({ enabled: true }).catch(catcher);
+  if (schools) {
+    res.status(200).json({
+      status: true,
+      data: schools,
+    });
+  } else {
+    res.status(404).json({ status: false, err: "Account not found" });
+  }
+});
+
+
+
+
+
+
 export default schoolsRouter;
