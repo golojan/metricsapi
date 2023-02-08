@@ -1,9 +1,9 @@
 // api routes
 import { dbCon } from "../models";
-import { Router, Request, Response, NextFunction } from "express";
+import { Router, Request, Response } from "express";
 const schoolsRouter = Router();
 
-schoolsRouter.get("/", (req: Request, res: Response) => {
+schoolsRouter.all("/", (req: Request, res: Response) => {
   res.send({
     status: false,
     error: "Invalid API GET call",

@@ -39,12 +39,12 @@ const accountsScheme = new mongoose.Schema(
     },
     picture: {
       type: String,
-      default: '/images/avatar/user.png',
+      default: "/images/avatar/user.png",
     },
     firstname: { type: String },
     middlename: { type: String },
     lastname: { type: String },
-    aboutMe: { type: String, default: '' },
+    aboutMe: { type: String, default: "" },
     email: {
       type: String,
       unique: true,
@@ -56,16 +56,12 @@ const accountsScheme = new mongoose.Schema(
       default: Gender.NOTSAY,
     },
     birthday: { type: String },
-    addresses: {
-      contact: {
-        street: String,
-        city: String,
-        lga: String,
-        state: String,
-        zip: String,
-        country: { type: String, default: 'Nigeria' },
-      },
-    },
+    street: String,
+    city: String,
+    lga: String,
+    state: String,
+    zip: String,
+    country: { type: String, default: "Nigeria" },
     otp: {
       enabled: { type: Boolean, default: true },
       code: String,
@@ -129,15 +125,18 @@ const accountsScheme = new mongoose.Schema(
         fundingAmount: { type: String },
         fundingCurrency: { type: String },
         fundingDuration: { type: String },
+        createdAt: { type: Date },
+        updatedAt: { type: Date },
       },
     ],
   },
-  { timestamps: true },
+  { timestamps: true }
 );
 
 if (mongoose.models.Accounts) {
   delete mongoose.models.Accounts;
 }
 
-const Accounts = mongoose.model('Accounts', accountsScheme);
+const Accounts =
+  mongoose.models.Accounts || mongoose.model("Accounts", accountsScheme);
 export default Accounts;

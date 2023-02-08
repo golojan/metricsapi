@@ -18,5 +18,6 @@ if (mongoose.models.Faculties) {
   delete mongoose.models.Faculties;
 }
 
-const Faculties = mongoose.model('Faculties', facultiesScheme);
+const Faculties =
+  mongoose.models.Faculties || mongoose.model("Faculties", facultiesScheme);
 export default Faculties;

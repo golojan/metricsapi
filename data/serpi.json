@@ -1,0 +1,1260 @@
+{
+  "search_metadata": {
+    "id": "63ceb32e0ead4196f46fdc30",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/bc22a485a7526f00/63ceb32e0ead4196f46fdc30.json",
+    "created_at": "2023-01-23 16:17:50 UTC",
+    "processed_at": "2023-01-23 16:17:50 UTC",
+    "google_scholar_author_url": "https://scholar.google.com/citations?user=H3PEkCEAAAAJ&hl=en&cstart=0&pagesize=1000",
+    "raw_html_file": "https://serpapi.com/searches/bc22a485a7526f00/63ceb32e0ead4196f46fdc30.html",
+    "total_time_taken": 1.22
+  },
+  "search_parameters": {
+    "engine": "google_scholar_author",
+    "author_id": "H3PEkCEAAAAJ",
+    "hl": "en",
+    "start": 0,
+    "num": "1000"
+  },
+  "author": {
+    "name": "Chike Anibeze",
+    "affiliations": "Professor of Anatomy and Neurobiology",
+    "email": "Verified email at esut.edu.ng",
+    "interests": [
+      {
+        "title": "Anthropology",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:anthropology",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aanthropology"
+      },
+      {
+        "title": "Neuroscience",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:neuroscience",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Aneuroscience"
+      },
+      {
+        "title": "Comp. Anatomy",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:comp_anatomy",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Acomp_anatomy"
+      }
+    ],
+    "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=H3PEkCEAAAAJ&citpid=6"
+  },
+  "articles": [
+    {
+      "title": "Length-weight relationship and relative condition of Heterobranchus longifilis (Valenciennes) from Idodo River, Nigeria",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:qjMakFHDy7sC",
+      "citation_id": "H3PEkCEAAAAJ:qjMakFHDy7sC",
+      "authors": "CIP Anibeze",
+      "cited_by": {
+        "value": 93,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1375234751701122113",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1375234751701122113&engine=google_scholar&hl=en",
+        "cites_id": "1375234751701122113"
+      },
+      "year": "2000"
+    },
+    {
+      "title": "Growth Rates of Two African Catfishes Osteichthys: (Clariidae) in Homestead Concrete Ponds",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:0EnyYjriUFMC",
+      "citation_id": "H3PEkCEAAAAJ:0EnyYjriUFMC",
+      "authors": "CIP Anibeze, A Eze",
+      "publication": "Journal of Aquatic Sciences 15 (1), 55-58, 2000",
+      "cited_by": {
+        "value": 25,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5218480859015142700",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5218480859015142700&engine=google_scholar&hl=en",
+        "cites_id": "5218480859015142700"
+      },
+      "year": "2000"
+    },
+    {
+      "title": "Trends in the development of embalming methods",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:7PzlFSSx8tAC",
+      "citation_id": "H3PEkCEAAAAJ:7PzlFSSx8tAC",
+      "authors": "J Ezugworie, C Anibeze, R Ozoemena, J Ezugworie, C Anibeze",
+      "publication": "Internet J Altern Med 7, 2009",
+      "cited_by": {
+        "value": 23,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11148012919259279109",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11148012919259279109&engine=google_scholar&hl=en",
+        "cites_id": "11148012919259279109"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Morphogenetic traits combination pattern amongst the population of Ekpoma, Nigeria: Focus on tongue rolling, ear lobe attachment, blood groups and genotypes",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:roLk4NBRz8UC",
+      "citation_id": "H3PEkCEAAAAJ:roLk4NBRz8UC",
+      "authors": "AO Nwaopara, CIP Anibeze, FC Apkuaka, OF Agbontaen",
+      "publication": "African Journal of Biotechnology 7 (20), 2008",
+      "cited_by": {
+        "value": 22,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4060990615741658358",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4060990615741658358&engine=google_scholar&hl=en",
+        "cites_id": "4060990615741658358"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "Oocyte Structure, Fecundity and Sex Ratio of Heterobranchus longifilis (Valenciennes 1840) in Idodo River Basin (Nigeria) with comments on the Breeding Biology",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:TFP_iSt0sucC",
+      "citation_id": "H3PEkCEAAAAJ:TFP_iSt0sucC",
+      "authors": "CIP Anibeze, NM Inyang",
+      "publication": "Journal of Aquatic Sciences 15 (1), 59-62, 2000",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16478316432750528244",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16478316432750528244&engine=google_scholar&hl=en",
+        "cites_id": "16478316432750528244"
+      },
+      "year": "2000"
+    },
+    {
+      "title": "Height estimation of the Igbos using cephalo-facial anthropometry",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:RGFaLdJalmkC",
+      "citation_id": "H3PEkCEAAAAJ:RGFaLdJalmkC",
+      "authors": "J Ekezie, CIP Anibeze, GC Uloneme, GE Anyanwu",
+      "publication": "Int. J. Curr. Microbiol. Appl. Sci 4, 305-316, 2015",
+      "cited_by": {
+        "value": 14,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10634009477349575920",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10634009477349575920&engine=google_scholar&hl=en",
+        "cites_id": "10634009477349575920"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Transverse aortic arch diameters and relationship with heart size of Nigerians within the South East",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:UebtZRa9Y70C",
+      "citation_id": "H3PEkCEAAAAJ:UebtZRa9Y70C",
+      "authors": "GE Anyanwu, CI Anibeze, FC Akpuaka",
+      "publication": "Biomed Res 18 (18), 115-8, 2007",
+      "cited_by": {
+        "value": 13,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4229272197841396972",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4229272197841396972&engine=google_scholar&hl=en",
+        "cites_id": "4229272197841396972"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Antimicrobial potentials of Yaji-Spices: The constituents of a complex Nigerian Suya Meat Sauce inducing histological investigations",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:hFOr9nPyWt4C",
+      "citation_id": "H3PEkCEAAAAJ:hFOr9nPyWt4C",
+      "authors": "A Nwaopara, C Anibeze, F Akpuaka, S Nwaopara",
+      "publication": "The Internet Journal of Alternative Medicine 6 (2), 2009",
+      "cited_by": {
+        "value": 12,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11933548230026242623",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11933548230026242623&engine=google_scholar&hl=en",
+        "cites_id": "11933548230026242623"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Anthropometric study of the Facial Morphology in a South-Eastern Nigerian Population",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:D03iK_w7-QYC",
+      "citation_id": "H3PEkCEAAAAJ:D03iK_w7-QYC",
+      "authors": "EO Ewunonu, CIP Anibeze",
+      "publication": "Hum Bio Rev 2 (4), 314-323, 2013",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1524554772746784218",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1524554772746784218&engine=google_scholar&hl=en",
+        "cites_id": "1524554772746784218"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Histological signs of neurodegeneration in the cerebrum of rats fed with diet containing Yaji: the complex Nigerian suya meat sauce",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "H3PEkCEAAAAJ:YsMSGLbcyi4C",
+      "authors": "AO Nwaopara, CIP Anibeze, FC Akpuaka",
+      "publication": "Asian Journal of Medical Sciences 2 (1), 16-21, 2010",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3474920659055894430",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3474920659055894430&engine=google_scholar&hl=en",
+        "cites_id": "3474920659055894430"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "Adansonia digitata L. leaf extract attenuates lead-induced cortical histoarchitectural changes and oxidative stress in the prefrontal cortex of adult male Wistar rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:b0M2c_1WBrUC",
+      "citation_id": "H3PEkCEAAAAJ:b0M2c_1WBrUC",
+      "authors": "V Atuadu, BA Benneth, J Oyem, E Esom, C Mba, K Nebo, G Ezemeka, ...",
+      "publication": "Drug Metabolism and Personalized Therapy, 2020",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15523823554531068562",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15523823554531068562&engine=google_scholar&hl=en",
+        "cites_id": "15523823554531068562"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Correlation of body mass index with low back pain amongst patients without injury in a Nigeria population",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:SeFeTyx0c_EC",
+      "citation_id": "H3PEkCEAAAAJ:SeFeTyx0c_EC",
+      "authors": "UK Ezemagu, CIP Anibeze, CO Ani, GC Ossi",
+      "publication": "Int J Curr Microbiol Appl Sci 5 (11), 371-378, 2016",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3250933660588569363",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3250933660588569363&engine=google_scholar&hl=en",
+        "cites_id": "3250933660588569363"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Stature estimation of the Igbos using cephalo-facial anthropometry",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:M3NEmzRMIkIC",
+      "citation_id": "H3PEkCEAAAAJ:M3NEmzRMIkIC",
+      "authors": "E Jervas, CIP Anibeze, GC Uloneme, GE Anyanwu",
+      "publication": "Journal of Forensic Research 6 (4), 1, 2015",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17436703178974785902",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17436703178974785902&engine=google_scholar&hl=en",
+        "cites_id": "17436703178974785902"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Stomach Length and Food Preference of three Tilapia species (Osteichthyes: Cichlidae in Agulu Lake Basin, Nigeria",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:9ZlFYXVOiuMC",
+      "citation_id": "H3PEkCEAAAAJ:9ZlFYXVOiuMC",
+      "authors": "CIP Anibeze",
+      "publication": "Journal of Aquatic Sciences 16 (1), 57-60, 2001",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9170778576506918430",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9170778576506918430&engine=google_scholar&hl=en",
+        "cites_id": "9170778576506918430"
+      },
+      "year": "2001"
+    },
+    {
+      "title": "Estimation of stature from cephalic parameters in South-Eastern Nigerian population",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:mVmsd5A6BfQC",
+      "citation_id": "H3PEkCEAAAAJ:mVmsd5A6BfQC",
+      "authors": "EO Ewunonu, CIP Anibeze",
+      "publication": "J Scientific Innovative Res 2, 425-32, 2013",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9008166674795170923",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9008166674795170923&engine=google_scholar&hl=en",
+        "cites_id": "9008166674795170923"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Activity related differences in the thickness of achilles tendon among four different occupational groups in nigeria: an ultrasound based study",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:2osOgNQ5qMEC",
+      "citation_id": "H3PEkCEAAAAJ:2osOgNQ5qMEC",
+      "authors": "OA Egwu, CIP Anibeze, FC Akpuaka, BE Udoh",
+      "publication": "Bangladesh Journal of Medical Science 11 (2), 103-111, 2012",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1217808696731446525",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1217808696731446525&engine=google_scholar&hl=en",
+        "cites_id": "1217808696731446525"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Histological signs of oligodendroglioma in the brain of rats fed with diet containing Yaji: the complex Nigerian suya meat sauce",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:k_IJM867U9cC",
+      "citation_id": "H3PEkCEAAAAJ:k_IJM867U9cC",
+      "authors": "AO Nwaopara, CIP Anibeze, FC Akpuaka",
+      "publication": "J Clin Rev Opin 1, 21-5, 2009",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17067373350109500789",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17067373350109500789&engine=google_scholar&hl=en",
+        "cites_id": "17067373350109500789"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "The pattern of morphogenetic traits combination amongst the population of Ekpoma, Nigeria: Focus on dimples, widows peak, blood groups and genotypes",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:ZeXyd9-uunAC",
+      "citation_id": "H3PEkCEAAAAJ:ZeXyd9-uunAC",
+      "authors": "A Nwaopara, C Anibeze, F Akpuaka, E Uhumuavbi",
+      "publication": "Int J Bio Anthropol 3, 21, 2009",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10415248841495060322",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10415248841495060322&engine=google_scholar&hl=en",
+        "cites_id": "10415248841495060322"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Aspects of the ecobiology of Heterobranchus longifilis (Val. 1840) in Idodo river basin (Nigeria) and their application to aquaculture",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:iH-uZ7U-co4C",
+      "citation_id": "H3PEkCEAAAAJ:iH-uZ7U-co4C",
+      "authors": "CIP Anibeze",
+      "publication": "PhD thesis, Department of Zoology, University of Nigeria, Nsukka, 1995",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16047448100801679309",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16047448100801679309&engine=google_scholar&hl=en",
+        "cites_id": "16047448100801679309"
+      },
+      "year": "1995"
+    },
+    {
+      "title": "Somatometric evaluation of long bones of the upper extremity: a forensic tool",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:Wp0gIr-vW9MC",
+      "citation_id": "H3PEkCEAAAAJ:Wp0gIr-vW9MC",
+      "authors": "J Ekezie, CIP Anibeze, GC Uloneme, GE Anyanwu, SB Danborno, ...",
+      "publication": "Forensic Res Criminol Int J 1 (5), 175-181, 2015",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8914415344491977649",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8914415344491977649&engine=google_scholar&hl=en",
+        "cites_id": "8914415344491977649"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Histological effects of Rauwolfia vomitoria extract on carbon tetrachloride induced hepatotoxicity in adult wistar rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:UeHWp8X0CEIC",
+      "citation_id": "H3PEkCEAAAAJ:UeHWp8X0CEIC",
+      "authors": "DN Ezejindu, IA Okafor, CIP Anibeze",
+      "publication": "Global Journal of Biology, Agric. and Health Sciences 2 (2), 73-77, 2013",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1442573673412619945",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1442573673412619945&engine=google_scholar&hl=en",
+        "cites_id": "1442573673412619945"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Age and sex related variations in the maxillary sinuses of South East Nigerians",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:_Qo2XoVZTnwC",
+      "citation_id": "H3PEkCEAAAAJ:_Qo2XoVZTnwC",
+      "authors": "UK Ezemagu, N Mgbor, CIP Anibeze, FC Akpuaka",
+      "publication": "Journal of Experimental and Clinical Anatomy 4 (1), 33-38, 2005",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14726834954793576893",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14726834954793576893&engine=google_scholar&hl=en",
+        "cites_id": "14726834954793576893"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Anthropometrical Profiles of the Frontal Sinus in Population of Southeast Nigerians",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:Tyk-4Ss8FVUC",
+      "citation_id": "H3PEkCEAAAAJ:Tyk-4Ss8FVUC",
+      "authors": "UK Ezemagu, N Mgbor, CIP Anibeze",
+      "publication": "Journal of Experimental and Clinical Anatomy 4 (1), 42-46, 2005",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2325324245545324565",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2325324245545324565&engine=google_scholar&hl=en",
+        "cites_id": "2325324245545324565"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Body Habits and Abdominal aortic sizes among South Nige-rian",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:35N4QoGY0k4C",
+      "citation_id": "H3PEkCEAAAAJ:35N4QoGY0k4C",
+      "authors": "OO Udemezue, FC Akpuaka, CIP Anibeze",
+      "publication": "J. Exp & Clin Anat 1, 22-25, 2000",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7810027613416824988",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7810027613416824988&engine=google_scholar&hl=en",
+        "cites_id": "7810027613416824988"
+      },
+      "year": "2000"
+    },
+    {
+      "title": "Considering the inferior surface area of lower lumbar vertebrae: determining weight transmission pattern at the lumbosacral junction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:hqOjcs7Dif8C",
+      "citation_id": "H3PEkCEAAAAJ:hqOjcs7Dif8C",
+      "authors": "UK Ezemagu, CP Anibeze, CF Akpuaka",
+      "publication": "Anatomical Science International 93 (2), 277-283, 2018",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4973038577699958843",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4973038577699958843&engine=google_scholar&hl=en",
+        "cites_id": "4973038577699958843"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Anthropometric variations of inner and outer canthal distance of the Igbo of South-Eastern Nigeria",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:EUQCXRtRnyEC",
+      "citation_id": "H3PEkCEAAAAJ:EUQCXRtRnyEC",
+      "authors": "UG Esomonu, FC Akpuaka, CIP Anibeze",
+      "publication": "J Exp Clin Anat 10, 9-14, 2011",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10082642704458984698",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10082642704458984698&engine=google_scholar&hl=en",
+        "cites_id": "10082642704458984698"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Induced histological features of hypoxia-ischaemia in the brain of rats fed with diet containing Yaji: the complex Nigerian meat sauce",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:dhFuZR0502QC",
+      "citation_id": "H3PEkCEAAAAJ:dhFuZR0502QC",
+      "authors": "AO Nwaopara, CIP Anibeze, FC Akpuaka",
+      "publication": "Research Journal of Applied Sciences, Engineering and Technology 2 (1), 67-72, 2010",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9320406768905994906",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9320406768905994906&engine=google_scholar&hl=en",
+        "cites_id": "9320406768905994906"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "Critical appraisal of reasons for traditional embalming among Igbos in the South-East, Nigeria",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:ufrVoPGSRksC",
+      "citation_id": "H3PEkCEAAAAJ:ufrVoPGSRksC",
+      "authors": "J Ezugworie, C Anibeze, F Akpuaka",
+      "publication": "The Internet Journal of Alternative Medicine 7 (2), 55-60, 2009",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3580979960412679224",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3580979960412679224&engine=google_scholar&hl=en",
+        "cites_id": "3580979960412679224"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Cardiothoracic ratio and body habitus in a Nigerian population",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:ULOm3_A8WrAC",
+      "citation_id": "H3PEkCEAAAAJ:ULOm3_A8WrAC",
+      "authors": "GE Anyanwu, CIP Anibeze, FC Akpuaka",
+      "publication": "Biomedical research 18 (2), 119-122, 2007",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5193259416765811660",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5193259416765811660&engine=google_scholar&hl=en",
+        "cites_id": "5193259416765811660"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Sonographic evaluation of heel pad thickness in a Nigerian population",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:4DMP91E08xMC",
+      "citation_id": "H3PEkCEAAAAJ:4DMP91E08xMC",
+      "authors": "OA Egwu, CIP Anibeze, FC Akpuaka",
+      "publication": "population 2, 6, 2012",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7508029780207590009",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7508029780207590009&engine=google_scholar&hl=en",
+        "cites_id": "7508029780207590009"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Effects of maternal administation of Bonny light crude oil on brain dimensions of wistar rat foetuses",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "H3PEkCEAAAAJ:9yKSN-GCB0IC",
+      "authors": "VA Fischer, CIP Anibeze, AO Igiri, TB Ekanem, OE Mesembe, CE Fischer",
+      "publication": "Global Journal of Pure and Applied Sciences 13 (1), 95-97, 2007",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1185157068176203320",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1185157068176203320&engine=google_scholar&hl=en",
+        "cites_id": "1185157068176203320"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Effects of bonny light crude oil on the morphology of litters of wistar rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:JV2RwH3_ST0C",
+      "citation_id": "H3PEkCEAAAAJ:JV2RwH3_ST0C",
+      "authors": "VA Fischer, CIP Anibeze, AO Igiri, EO Eyong, OE Mesembe, CE Fischer",
+      "publication": "Global Journal of Medical Sciences 5 (1), 51-53, 2006",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17533328490233280173",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17533328490233280173&engine=google_scholar&hl=en",
+        "cites_id": "17533328490233280173"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "Evaluation of the Biomass and Profitability of Heterobranchus longifilis under different Environmental Stocking Densities",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:3s1wT3WcHBgC",
+      "citation_id": "H3PEkCEAAAAJ:3s1wT3WcHBgC",
+      "authors": "CIP Anibeze, UC Amalu, CL ANIBEZE",
+      "publication": "Enugu State Agricultural Development (ENADEP) Annual Report, 2000",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5656013248376400297",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5656013248376400297&engine=google_scholar&hl=en",
+        "cites_id": "5656013248376400297"
+      },
+      "year": "2000"
+    },
+    {
+      "title": "Disposition of Nigerian Anatomists towards Donating their Bodies for Medical Education and Research",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:_xSYboBqXhAC",
+      "citation_id": "H3PEkCEAAAAJ:_xSYboBqXhAC",
+      "authors": "II Ozor, CIP Anibeze, OM Ozioko, US Ozioko, CJ Okamkpa",
+      "publication": "Journal of Medical Science and Clinical Research 8 (6), 259-266, 2020",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9679080999295220557",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9679080999295220557&engine=google_scholar&hl=en",
+        "cites_id": "9679080999295220557"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Effect of ethanolic leaf extracts of Carica papaya and Newbouldia laevis on kidney enzymes of alloxan-induced diabetic wistar rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:WbkHhVStYXYC",
+      "citation_id": "H3PEkCEAAAAJ:WbkHhVStYXYC",
+      "authors": "NO Ifegwu, CIP Anibeze",
+      "publication": "European Journal of Pharmaceutical and Medical Research (EJPMR) 6 (5), 139-144, 2019",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17339395835221551877",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17339395835221551877&engine=google_scholar&hl=en",
+        "cites_id": "17339395835221551877"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Ameliorating effect of ethanolic leaf extracts of Carica papaya and Newbouldia laevis on liver of alloxan-induced diabetic wistar rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:J_g5lzvAfSwC",
+      "citation_id": "H3PEkCEAAAAJ:J_g5lzvAfSwC",
+      "authors": "NO Ifegwu, CIP Anibeze, GU Ndukwe, NN Njoku-Oji, JU Agbai, JK Opara, ...",
+      "publication": "European Journal of Pharmaceutical and Medical Research 6 (4), 164-169, 2019",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13640408113699444116",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13640408113699444116&engine=google_scholar&hl=en",
+        "cites_id": "13640408113699444116"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Protective and Ameliorating effects of methanol seed extract of Mucuana pruriens on paraquat induced testicular damage",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:pqnbT2bcN3wC",
+      "citation_id": "H3PEkCEAAAAJ:pqnbT2bcN3wC",
+      "authors": "UC Ofoego, EU Ekwujuru, A Nwakama, IS Mbagwu, CIP Anibeze",
+      "publication": "Adv Life Sci Technol 63, 8-16, 2018",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10783760881577907089",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10783760881577907089&engine=google_scholar&hl=en",
+        "cites_id": "10783760881577907089"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "ACTIVITY RELATED DIFFERENCES IN THE THICKNESS OF PLANTAR FASCIA OF SOME OCCUPATIONAL GROUPS IN NIGERIA: AN ULTRASOUND BASED STUDY",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:KlAtU1dfN6UC",
+      "citation_id": "H3PEkCEAAAAJ:KlAtU1dfN6UC",
+      "authors": "OA Egwu, CIP Anibeze",
+      "publication": "Acta Medica Saliniana 41 (1), 50-54, 2012",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6908929920009142167",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6908929920009142167&engine=google_scholar&hl=en",
+        "cites_id": "6908929920009142167"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Sagittal angle and orientation of superior articular faces of the zygapophyseal joints at Lumbosacral Junction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:IWHjjKOFINEC",
+      "citation_id": "H3PEkCEAAAAJ:IWHjjKOFINEC",
+      "authors": "UK Ezemagu, CIP Anibeze",
+      "publication": "Journal of Experimental and Clinical Anatomy 11 (1), 2012",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10479672115332636248",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10479672115332636248&engine=google_scholar&hl=en",
+        "cites_id": "10479672115332636248"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Effects Of Monosodium Glutamate (MSG) On The Histological Features Of The Spinal Cord Of Adult Wister Rat",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:bEWYMUwI8FkC",
+      "citation_id": "H3PEkCEAAAAJ:bEWYMUwI8FkC",
+      "authors": "GE Anyanwu, OJ Ezeugwuorie, CIP Anibeze, AA Ngokere",
+      "publication": "Journal of Experimental and Clinical Anatomy 4 (1), 6-8, 2005",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16423543589175659987",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16423543589175659987&engine=google_scholar&hl=en",
+        "cites_id": "16423543589175659987"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Growth related variations in the body muscle composition of two African clariids (Osteichthys: Clariidae)",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:g5m5HwL7SMYC",
+      "citation_id": "H3PEkCEAAAAJ:g5m5HwL7SMYC",
+      "authors": "CIP Anibeze, LC Anyanwu",
+      "publication": "The Nigerian Academic Forum 9 (2), 1-5, 2005",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=498094670321888046",
+        "serpapi_link": "https://serpapi.com/search.json?cites=498094670321888046&engine=google_scholar&hl=en",
+        "cites_id": "498094670321888046"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "A conceptual evaluation of the emotional reactions of Nigerian medical students to dissecting human bodies",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:HoB7MX3m0LUC",
+      "citation_id": "H3PEkCEAAAAJ:HoB7MX3m0LUC",
+      "authors": "CIP Anibeze",
+      "publication": "African J Sci 12, 229-233, 2001",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13653094154566373939",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13653094154566373939&engine=google_scholar&hl=en",
+        "cites_id": "13653094154566373939"
+      },
+      "year": "2001"
+    },
+    {
+      "title": "Aspects of the reproductive biology of Heterobranchus longifilis (Valenciennes, 1840) in the Idodo River Basin, Southeastern Nigeria",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:5nxA0vEk-isC",
+      "citation_id": "H3PEkCEAAAAJ:5nxA0vEk-isC",
+      "authors": "NM Inyang, CIP Anibeze, BO Mgbenka",
+      "publication": "Journal of African Zoology (Belgium), 1997",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5532121310061352316",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5532121310061352316&engine=google_scholar&hl=en",
+        "cites_id": "5532121310061352316"
+      },
+      "year": "1997"
+    },
+    {
+      "title": "Fish farming in Nigeria",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:u-x6o8ySG0sC",
+      "citation_id": "H3PEkCEAAAAJ:u-x6o8ySG0sC",
+      "authors": "CI Anibeze",
+      "publication": "Delta of Nigeria, 1995",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=365921363267400815",
+        "serpapi_link": "https://serpapi.com/search.json?cites=365921363267400815&engine=google_scholar&hl=en",
+        "cites_id": "365921363267400815"
+      },
+      "year": "1995"
+    },
+    {
+      "title": "Protective role of adansonia digitata on lead-induced neurotoxicity in the hippocampus of adult wistar rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:cFHS6HbyZ2cC",
+      "citation_id": "H3PEkCEAAAAJ:cFHS6HbyZ2cC",
+      "authors": "VO Atuadu, CIP Anibeze, E Finbarrs-Bello, EA Esom, D Okoh",
+      "publication": "IBRO Reports 7, 19, 2019",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16839283370878446030",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16839283370878446030&engine=google_scholar&hl=en",
+        "cites_id": "16839283370878446030"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Protective effect of beta vulgaris on carbon tetrachloride induced hepatotoxicity in adult wistar rat",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:YFjsv_pBGBYC",
+      "citation_id": "H3PEkCEAAAAJ:YFjsv_pBGBYC",
+      "authors": "S Egeonu, C Ihentuge, H Okechukwu, C Anibeze, F Akpuaka",
+      "publication": "The FASEB Journal 32, 511.6-511.6, 2018",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11904766072316112940",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11904766072316112940&engine=google_scholar&hl=en",
+        "cites_id": "11904766072316112940"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Prevalence of nutrition associated ponderal outcomes among school children and adolescents in Ebonyi State, South-East Nigeria",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:kNdYIx-mwKoC",
+      "citation_id": "H3PEkCEAAAAJ:kNdYIx-mwKoC",
+      "authors": "N Nto, C Anibeze, E Egwu, A Eteudo, A Egwu, E Esom, C Njoku",
+      "publication": "Journal of Experimental and Clinical Anatomy 14 (2), 105-105, 2015",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6321049335725023850",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6321049335725023850&engine=google_scholar&hl=en",
+        "cites_id": "6321049335725023850"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Growth status of school children and adolescents in Ebonyi State, Southeast Nigeria",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:-f6ydRqryjwC",
+      "citation_id": "H3PEkCEAAAAJ:-f6ydRqryjwC",
+      "authors": "NJ Nto, CIP Anibeze, OA Egwu, EN Obikili, AU Agu, GE Anyanwu, ...",
+      "publication": "Annals of Bioanthropology 2 (2), 59, 2014",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11365439944408647671",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11365439944408647671&engine=google_scholar&hl=en",
+        "cites_id": "11365439944408647671"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Effects of Lactational exposure to aqueous solution of alligator pepper (Elettaria cardamomum) on litters of lactating wistar rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:IjCSPb-OGe4C",
+      "citation_id": "H3PEkCEAAAAJ:IjCSPb-OGe4C",
+      "authors": "GC Uloneme, CIP Anibeze, DN Ezejindu",
+      "publication": "European International Journal of applied science and technology 1 (3), 2014",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1581875935461721971",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1581875935461721971&engine=google_scholar&hl=en",
+        "cites_id": "1581875935461721971"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Comparative Study of the Oocyte structure, Fecundity and Sex ratio of two African catfishes in Idodo river basin (Nigeria) with comments on their Breeding biology.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:ns9cj8rnVeAC",
+      "citation_id": "H3PEkCEAAAAJ:ns9cj8rnVeAC",
+      "authors": "CIP Anibeze",
+      "publication": "Journal of Experimental Research 1 (1), 56-60, 2013",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11088382147044934245",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11088382147044934245&engine=google_scholar&hl=en",
+        "cites_id": "11088382147044934245"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Cultural Strictures to the Practice of Body Do-nation Programme in Africa",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:OU6Ihb5iCvQC",
+      "citation_id": "H3PEkCEAAAAJ:OU6Ihb5iCvQC",
+      "authors": "C Anibeze",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3846387374207905725",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3846387374207905725&engine=google_scholar&hl=en",
+        "cites_id": "3846387374207905725"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Anthropometric Evaluation of Foot Shape Dimensions and Patterns for Ancestral Determination of South-East Nigerians",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:uWQEDVKXjbEC",
+      "citation_id": "H3PEkCEAAAAJ:uWQEDVKXjbEC",
+      "authors": "WB Vidona, CIP Anibeze, EA Esunwoke",
+      "publication": "Journal of Anatomical Sciences 10 (1), 94, 2019",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5166070186207758484",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5166070186207758484&engine=google_scholar&hl=en",
+        "cites_id": "5166070186207758484"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Anthropological Assessment of Foot Dimensions of the South-East Ancestral Divisions of Nigeria",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:M05iB0D1s5AC",
+      "citation_id": "H3PEkCEAAAAJ:M05iB0D1s5AC",
+      "authors": "WB Vidona, CIP Anibeze, LK David, AB Monday",
+      "publication": "J Anthropology Rep 3, 119, 2019",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16276623574219286442",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16276623574219286442&engine=google_scholar&hl=en",
+        "cites_id": "16276623574219286442"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "VARIATIONS IN MATERNAL DIETARY FATTY ACID COMPOSITION AFFECTS THE NEURODEVELOPMENT OF RAT PUPS",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:e5wmG9Sq2KIC",
+      "citation_id": "H3PEkCEAAAAJ:e5wmG9Sq2KIC",
+      "authors": "CIP Anibeze",
+      "publication": "Publication of Enugu State University of Science & Technology, 2016",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14016956678001149375",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14016956678001149375&engine=google_scholar&hl=en",
+        "cites_id": "14016956678001149375"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Histological Changes in the Pancreas of Streptozotocin induced Diabetic Rats fed with Rind of Citrullus lanatus",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:MXK_kJrjxJIC",
+      "citation_id": "H3PEkCEAAAAJ:MXK_kJrjxJIC",
+      "authors": "H Okechukwu, C Ihentuge, C Ugochukwu, C Anibeze",
+      "publication": "The FASEB Journal 29, 544.8, 2015",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5977630788254805836",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5977630788254805836&engine=google_scholar&hl=en",
+        "cites_id": "5977630788254805836"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Prediction of Stature from Somatometry of the Left Hand in Igbos, Nigeria",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:LkGwnXOMwfcC",
+      "citation_id": "H3PEkCEAAAAJ:LkGwnXOMwfcC",
+      "authors": "J Ekezie, CIP Anibeze, GE Anyanwu, GC Uloneme",
+      "publication": "J Forensic Res S 1, 2, 2015",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3839527915006441986",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3839527915006441986&engine=google_scholar&hl=en",
+        "cites_id": "3839527915006441986"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Expanding the publishing niche for bioanthropologists",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:qUcmZB5y_30C",
+      "citation_id": "H3PEkCEAAAAJ:qUcmZB5y_30C",
+      "authors": "C Anibeze",
+      "publication": "Annals of Bioanthropology 2 (1), 1-1, 2014",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11025390374789268708",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11025390374789268708&engine=google_scholar&hl=en",
+        "cites_id": "11025390374789268708"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "On the systematics and reproductive compatibility in Clariidae based on Osteological and morphometric parameters",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:qxL8FJ1GzNcC",
+      "citation_id": "H3PEkCEAAAAJ:qxL8FJ1GzNcC",
+      "authors": "CIP Anibeze",
+      "publication": "Annals of Bioanthropology 2 (1), 7, 2014",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8392723974695222762",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8392723974695222762&engine=google_scholar&hl=en",
+        "cites_id": "8392723974695222762"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Frontal sinus pneumatization pattern with age",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:_FxGoFyzp5QC",
+      "citation_id": "H3PEkCEAAAAJ:_FxGoFyzp5QC",
+      "authors": "UK Ezemagu, N Mgbor, CIP Anibeze, FC Akpuaka",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3829858146225917493",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3829858146225917493&engine=google_scholar&hl=en",
+        "cites_id": "3829858146225917493"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "The chemical complexity of Yaji: A Nigerian Suya meat sauce inducing Scientific Investigations",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:Zph67rFs4hoC",
+      "citation_id": "H3PEkCEAAAAJ:Zph67rFs4hoC",
+      "authors": "AO Nwaopara, CIP Anibeze, FC Akpuaka, U Akpamu",
+      "publication": "International Journal of Herbs and Pharmacological Research 1 (1), 7-17, 2012",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6999825277146160683",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6999825277146160683&engine=google_scholar&hl=en",
+        "cites_id": "6999825277146160683"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Relationship between cranial capacity and age in Nigerian females",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:j3f4tGmQtD8C",
+      "citation_id": "H3PEkCEAAAAJ:j3f4tGmQtD8C",
+      "authors": "U Ukoha, CIP Anibeze, FC Akpuata, A Anyabolu",
+      "publication": "Journal of Biomedical Investigation 7 (2), 2009",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15469461786115813435",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15469461786115813435&engine=google_scholar&hl=en",
+        "cites_id": "15469461786115813435"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "A Cadaveric Study of the Morphometry of the Cervical Spinal Canal in Nigerians",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:QIV2ME_5wuYC",
+      "citation_id": "H3PEkCEAAAAJ:QIV2ME_5wuYC",
+      "authors": "TO Johnbull, CIP Anibeze",
+      "publication": "Journal of Experimental and Clinical Anatomy 8 (2), 2009",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9310217998490226869",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9310217998490226869&engine=google_scholar&hl=en",
+        "cites_id": "9310217998490226869"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "BLOOD GROUP, GENOTYPE, HANDEDNESS, AND INTERLOCKING FINGER TRAITS COMBINATION PATTERN AMONGST THE POPULATION OF EKPOMA-NIGERIA",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:4TOpqqG69KYC",
+      "citation_id": "H3PEkCEAAAAJ:4TOpqqG69KYC",
+      "authors": "AO Nwaopara, CIP Anibeze, FC Akpuaka, EU Ogudo",
+      "publication": "Electron J Biomed 3, 65-72, 2009",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7959684109962312742",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7959684109962312742&engine=google_scholar&hl=en",
+        "cites_id": "7959684109962312742"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Kidney Parameters And Body Habitus Among South Eastern Nigerians",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:isC4tDSrTZIC",
+      "citation_id": "H3PEkCEAAAAJ:isC4tDSrTZIC",
+      "authors": "U Ukoha, AL Asomgha, CIP Anibeze, FC Akpuaka, SO Mgbor, ...",
+      "publication": "Tropical Journal of Medical Research 11 (1), 7-10, 2007",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16876863214603747674",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16876863214603747674&engine=google_scholar&hl=en",
+        "cites_id": "16876863214603747674"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Effect if bonny light crude oil on the neuroglial cells of the developing cerebral cortex in litters of Wistar rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:R3hNpaxXUhUC",
+      "citation_id": "H3PEkCEAAAAJ:R3hNpaxXUhUC",
+      "authors": "CIP Anibeze, FC Akpuaka, AA Ngokere, VA Fischer",
+      "publication": "Journal of Health and Visual Sciences 7 (2), 2005",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12947586763687154406",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12947586763687154406&engine=google_scholar&hl=en",
+        "cites_id": "12947586763687154406"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Visual Anatomy And The Art Of Ancient Igbo Societies Of Southeastern Nigeria.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:_kc_bZDykSQC",
+      "citation_id": "H3PEkCEAAAAJ:_kc_bZDykSQC",
+      "authors": "CIP Anibeze, OO Okechi, LC Anyanwu, A Eteudo",
+      "publication": "J. Expt&Clin. Anat4 (1), 32-34, 2005",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7936673042019442119",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7936673042019442119&engine=google_scholar&hl=en",
+        "cites_id": "7936673042019442119"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Adiposity Patterns In Adolescents Of Southeastern Nigeria Based On Their Body Index",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:YOwf2qJgpHMC",
+      "citation_id": "H3PEkCEAAAAJ:YOwf2qJgpHMC",
+      "authors": "CIP Anibeze, AOC Akpa, A Eteudo, LC Anyanwu",
+      "publication": "Journal of Experimental and Clinical Anatomy 2 (1), 21-23, 2003",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7734092853101035375",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7734092853101035375&engine=google_scholar&hl=en",
+        "cites_id": "7734092853101035375"
+      },
+      "year": "2003"
+    },
+    {
+      "title": "Anthropometrical Profile, Skinfold Tickness and Subcutaneous Fat Depositions in Adolescents of Southeastern Nigeria",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:d1gkVwhDpl0C",
+      "citation_id": "H3PEkCEAAAAJ:d1gkVwhDpl0C",
+      "authors": "CIP Anibeze, AOC Akpa, A Etudo",
+      "publication": "International Journal of Medicine and Health Development 8 (2), 25-26, 2003",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1049993497362941398",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1049993497362941398&engine=google_scholar&hl=en",
+        "cites_id": "1049993497362941398"
+      },
+      "year": "2003"
+    },
+    {
+      "title": "Pollutant bioassay and effect of water soluble fractions of Bonny light crude oil on the tissue carbohydrate reserve of Tilipia Mariae (Boulenger)",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:r0BpntZqJG4C",
+      "citation_id": "H3PEkCEAAAAJ:r0BpntZqJG4C",
+      "authors": "CIP Anibeze",
+      "publication": "Journal of Health and Visual Sciences 2 (2), 2000",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15471753340933045551",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15471753340933045551&engine=google_scholar&hl=en",
+        "cites_id": "15471753340933045551"
+      },
+      "year": "2000"
+    },
+    {
+      "title": "Ethnographic Study of Perspective and Attitude of Breastfeeding Mothers Towards the use of Elaeis Guineensis Sap As Galactagogue Among Igbo Women of Southeastern Nigeria",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:p2g8aNsByqUC",
+      "citation_id": "H3PEkCEAAAAJ:p2g8aNsByqUC",
+      "authors": "OJ Chikezie, AI Chike, OI Ignatius, IK Ndu, UA Umeh",
+      "publication": "Gynecology Obstetrics & Reproductive Medicine 28 (1), 31-37, 2022",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2022"
+    },
+    {
+      "title": "Effects of Ethanolic Leaf Extract Of Piper Guineense (Uziza) On The Liver Of Paraquat Induced Adult Male Wistar Rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:Tiz5es2fbqcC",
+      "citation_id": "H3PEkCEAAAAJ:Tiz5es2fbqcC",
+      "authors": "CA Mbah, CIP Anibeze, GU Ndukwe, FO Ovie, CA Didigwu",
+      "publication": "Japan Journal of Clinical & Medical Research. SRC/JJCMR-141. DOI: doi. org …, 2022",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2022"
+    },
+    {
+      "title": "Considering the surface area and sagittal angle in a pair of lumbosacral facets: Determining the structural relevance of asymmetric facets at the lumbosacral junction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:abG-DnoFyZgC",
+      "citation_id": "H3PEkCEAAAAJ:abG-DnoFyZgC",
+      "authors": "UK Ezemagu, FC Akpuaka, EC Iyidobi, CP Anibeze",
+      "publication": "Journal of The Anatomical Society of India 69 (4), 237, 2020",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2020"
+    },
+    {
+      "title": "Visual Anatomy in Igbo Cosmology: An Insight into the Anatomo-Religious Impressions of the Ikenga",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:pyW8ca7W8N0C",
+      "citation_id": "H3PEkCEAAAAJ:pyW8ca7W8N0C",
+      "authors": "C Anibeze",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2019"
+    },
+    {
+      "title": "Anti-hepatotoxic Effect Of In Paracetamol-Induced Hepatotoxicity In Rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:ZHo1McVdvXMC",
+      "citation_id": "H3PEkCEAAAAJ:ZHo1McVdvXMC",
+      "authors": "II Ozor, JC Anioke, CIP Anibeze, KA Nwokocha, EE Neboh",
+      "publication": "Journal of Experimental Research 7 (2), 2019",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2019"
+    },
+    {
+      "title": "Considering the lumbosacral geometry as a functional matrix predicting the development of spine derangement and low back pain.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:lSLTfruPkqcC",
+      "citation_id": "H3PEkCEAAAAJ:lSLTfruPkqcC",
+      "authors": "CP Anibeze, GC Ossi, CO Ani, UK Ezemagu",
+      "publication": "Biomedical Research 30 (4), 633-638, 2019",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2019"
+    },
+    {
+      "title": "Protective Effect of Beta vulgaris on Carbon tetrachloride induce Cardiotoxicity of adult Wistar Rat",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:NMxIlDl6LWMC",
+      "citation_id": "H3PEkCEAAAAJ:NMxIlDl6LWMC",
+      "authors": "H Okechukwu, C Ihentuge, S Egeonu, C Anibeze, G Ndukwe",
+      "publication": "The FASEB Journal 32, 512.8-512.8, 2018",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2018"
+    },
+    {
+      "title": "Anomalous renal vasculature",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:4JMBOYKVnBMC",
+      "citation_id": "H3PEkCEAAAAJ:4JMBOYKVnBMC",
+      "authors": "CIP Anibeze, CC Ozor, OA Egwu, JI Nnaji, BO Enyinda, BA Iwunze",
+      "publication": "Annals of Bioanthropology 5 (1), 40, 2017",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2017"
+    },
+    {
+      "title": "Sexual dimorphism in frontal sinus of Southeast Nigerians",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:Y0pCki6q_DkC",
+      "citation_id": "H3PEkCEAAAAJ:Y0pCki6q_DkC",
+      "authors": "UK Ezemagu, CIP Anibeze, FC Akpuaka",
+      "publication": "Annals of Bioanthropology 5 (1), 14, 2017",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2017"
+    },
+    {
+      "title": "The Histological Effects of Ethanolic Leaf Extract of Moringa oleifera on Potassium Bromate Induced Renotoxicity in Adult Wistar Rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:vV6vV6tmYwMC",
+      "citation_id": "H3PEkCEAAAAJ:vV6vV6tmYwMC",
+      "authors": "E DN, CIP Anibeze, GU Nduwe",
+      "publication": "genus 23, 2016",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2016"
+    },
+    {
+      "title": "Protective Effects of Camel Milk on Carbon Tetrachloride induced Hepatoxicity in Wistar Rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:M3ejUd6NZC8C",
+      "citation_id": "H3PEkCEAAAAJ:M3ejUd6NZC8C",
+      "authors": "C Ihentuge, C Ugochukwu, C Anibeze",
+      "publication": "The FASEB Journal 29, 544.7, 2015",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2015"
+    },
+    {
+      "title": "Anthropometric study of the Facial Morphology in a South-Eastern",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:Se3iqnhoufwC",
+      "citation_id": "H3PEkCEAAAAJ:Se3iqnhoufwC",
+      "authors": "EO Ewunonu, CIP Anibeze",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2013"
+    },
+    {
+      "title": "Sonographic evaluation of spleen sizes in relation to age: A prospective study of healthy adult Nigerians",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:WF5omc3nYNoC",
+      "citation_id": "H3PEkCEAAAAJ:WF5omc3nYNoC",
+      "authors": "AN Eteudo, CIP Anibeze, FC Akpuaka, CO Ugwu",
+      "publication": "Journal of Experimental and Clinical Anatomy 11 (1), 2012",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2012"
+    },
+    {
+      "title": "Morphologic changes in the anterior pituitary gland of male wistar rats following high comsumption of mixed palm oil diets",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:L8Ckcad2t8MC",
+      "citation_id": "H3PEkCEAAAAJ:L8Ckcad2t8MC",
+      "authors": "OA Egwu, CIP Anibeze, UU Ukoha",
+      "publication": "Tropical Journal of Medical Research 15 (2), 60-63, 2011",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2011"
+    },
+    {
+      "title": "Effects of diet containing Garcinia Kola seeds on the liver of adult male wistar rats.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:mB3voiENLucC",
+      "citation_id": "H3PEkCEAAAAJ:mB3voiENLucC",
+      "authors": "EA Esom, FC Akpuaka, CIP Anibeze",
+      "publication": "Journal of Experimental and Clinical Anatomy 8 (1), 2009",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2009"
+    },
+    {
+      "title": "Anthropometrical study of the sella turcica in a Nigerian population",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:zYLM7Y9cAGgC",
+      "citation_id": "H3PEkCEAAAAJ:zYLM7Y9cAGgC",
+      "authors": "FC Akpuaka, CIP Anibeze, A Eteudo",
+      "publication": "Journal of Experimental and Clinical Anatomy 5 (1), 32-35, 2006",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2006"
+    },
+    {
+      "title": "Comparative Study Of Two Non-Selective Cyclooxygenase Inhibitors Paracetamol And Ibuprofen On Maternal And Neonatal Growth",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:u5HHmVD_uO8C",
+      "citation_id": "H3PEkCEAAAAJ:u5HHmVD_uO8C",
+      "authors": "RE Ucheya, FC Akpuaka, CIP Anibeze, JC Igweh",
+      "publication": "Journal of Experimental and Clinical Anatomy 4 (1), 17-20, 2005",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2005"
+    },
+    {
+      "title": "Establishment of normal prostate sizes within age groups in south east Nigerians",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:3fE2CSJIrl8C",
+      "citation_id": "H3PEkCEAAAAJ:3fE2CSJIrl8C",
+      "authors": "E Anyanwu, CIP Anibeze, FC Akpuaka, S Mgbor",
+      "publication": "Journal of Experimental and Clinical Anatomy 3 (1), 42-44, 2004",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": "2004"
+    },
+    {
+      "title": "Effect of Ethanolic Leaf Extract of Carica Papaya and Newbouldia Laevis on Hormone Profile of Alloxan-Induced Diabetic Wistar Rat",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:XiSMed-E-HIC",
+      "citation_id": "H3PEkCEAAAAJ:XiSMed-E-HIC",
+      "authors": "NO Ifegwu, CIP Anibeze, NN Njoku-Oji",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": ""
+    },
+    {
+      "title": "Ameliorative activity of ethanolic leaf extracts of carica papaya and newbouldia laevis on kidney of alloxan-induced diabetic rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:u9iWguZQMMsC",
+      "citation_id": "H3PEkCEAAAAJ:u9iWguZQMMsC",
+      "authors": "I NO, CIP Anibeze",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": ""
+    },
+    {
+      "title": "Who am I?–Exploring the Anatomical Underpinning of the Science of Life.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:f2IySw72cVMC",
+      "citation_id": "H3PEkCEAAAAJ:f2IySw72cVMC",
+      "authors": "C Anibeze",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": ""
+    },
+    {
+      "title": "Hepatoprotective potential of ethanolic leaf extracts of Carica papaya and Newbouldia laevis on alloxan-induced diabetic wistar rats",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:NaGl4SEjCO4C",
+      "citation_id": "H3PEkCEAAAAJ:NaGl4SEjCO4C",
+      "authors": "I NO, CIP Anibeze, GU Ndukwe, NN Njoku-Oji, JU Agbai, JK Opara, ...",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": ""
+    },
+    {
+      "title": "Antimicrobial Potentials of Yaji-Spices: The Constituents of a Complex Nigerian Suya Meat Sauce Inducing Histological",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:BqipwSGYUEgC",
+      "citation_id": "H3PEkCEAAAAJ:BqipwSGYUEgC",
+      "authors": "A Nwaopara, C Anibeze, F Akpuaka, S Nwaopara",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": ""
+    },
+    {
+      "title": "Histological Effects of Carotenoid On Carbon Tetrachloride Induced Hepatotoxicity In Adult Wistar Rats.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:hMod-77fHWUC",
+      "citation_id": "H3PEkCEAAAAJ:hMod-77fHWUC",
+      "authors": "E DN, IA Okafor, CIP Anibeze, CJ Ihentuge",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": ""
+    },
+    {
+      "title": "The Effects of Rauwolfia Vomitoria Extract on the Liver Enzymes of Carbon Tetrachloride Induced Hepatotoxicity in Adult Wistar Rats.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:blknAaTinKkC",
+      "citation_id": "H3PEkCEAAAAJ:blknAaTinKkC",
+      "authors": "DN Ezejindu, IA Okafor, CIP Anibeze, GC Uloleme",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": ""
+    },
+    {
+      "title": "The Effects of Carotenoid on Liver Enzymes of Carbon Tetrachloride Induced Hepatotoxicity in Adult Wistar Rats.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=H3PEkCEAAAAJ&pagesize=100&citation_for_view=H3PEkCEAAAAJ:RHpTSmoSYBkC",
+      "citation_id": "H3PEkCEAAAAJ:RHpTSmoSYBkC",
+      "authors": "DN Ezejindu, IA Okafor, CIP Anibeze",
+      "cited_by": { "value": null, "link": "https://scholar.google.com" },
+      "year": ""
+    }
+  ],
+  "cited_by": {
+    "table": [
+      { "citations": { "all": 451, "since_2018": 230 } },
+      { "h_index": { "all": 10, "since_2018": 7 } },
+      { "i10_index": { "all": 10, "since_2018": 4 } }
+    ],
+    "graph": [
+      { "year": 2004, "citations": 3 },
+      { "year": 2005, "citations": 3 },
+      { "year": 2006, "citations": 4 },
+      { "year": 2007, "citations": 4 },
+      { "year": 2008, "citations": 4 },
+      { "year": 2009, "citations": 7 },
+      { "year": 2010, "citations": 7 },
+      { "year": 2011, "citations": 16 },
+      { "year": 2012, "citations": 16 },
+      { "year": 2013, "citations": 20 },
+      { "year": 2014, "citations": 35 },
+      { "year": 2015, "citations": 22 },
+      { "year": 2016, "citations": 30 },
+      { "year": 2017, "citations": 41 },
+      { "year": 2018, "citations": 35 },
+      { "year": 2019, "citations": 40 },
+      { "year": 2020, "citations": 63 },
+      { "year": 2021, "citations": 41 },
+      { "year": 2022, "citations": 48 },
+      { "year": 2023, "citations": 3 }
+    ]
+  }
+}

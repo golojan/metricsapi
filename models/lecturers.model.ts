@@ -40,5 +40,6 @@ const lecturersScheme = new mongoose.Schema(
 if (mongoose.models.Lecturers) {
   delete mongoose.models.Lecturers;
 }
-const Lecturers = mongoose.model('Lecturers', lecturersScheme);
+const Lecturers =
+  mongoose.models.Lecturers || mongoose.model("Lecturers", lecturersScheme);
 export default Lecturers;

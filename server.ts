@@ -1,5 +1,6 @@
-require("dotenv").config();
-import express, { Express, Request, Response } from "express";
+import { config } from "dotenv";
+config();
+import express, { Express } from "express";
 import cors from "cors";
 import helmet from "helmet";
 
@@ -15,6 +16,7 @@ const allowedOrigins: string[] = [
   "https://esut.metrics.ng",
   "https://owner.metrics.ng",
   "https://metrics.ng",
+  "http://localhost:42000",
 ];
 
 server.use(
@@ -49,7 +51,6 @@ server.use("/schools", schoolsRouter);
 server.use("/", homeRouter);
 
 const port = process.env.PORT || 3000;
-const { MONGOOSE_URI } = process.env;
 server.listen(port, () => {
   console.log(`Running: http://localhost:${port}`);
 });

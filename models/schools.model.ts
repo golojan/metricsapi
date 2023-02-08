@@ -89,5 +89,6 @@ const schoolsScheme = new mongoose.Schema(
 if (mongoose.models.Schools) {
   delete mongoose.models.Schools;
 }
-const Schools = mongoose.model('Schools', schoolsScheme);
+const Schools =
+  mongoose.models.Schools || mongoose.model("Schools", schoolsScheme);
 export default Schools;

@@ -14,5 +14,7 @@ const connectionScheme = new mongoose.Schema(
 if (mongoose.models.Connections) {
   delete mongoose.models.Connections;
 }
-const Connections = mongoose.model("Connections", connectionScheme);
+const Connections =
+  mongoose.models.Connections ||
+  mongoose.model("Connections", connectionScheme);
 export default Connections;
