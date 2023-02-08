@@ -1,11 +1,12 @@
 {
   "name": "bootup",
+  "type": "commonjs",
   "version": "1.0.0",
   "description": "",
   "main": "server.ts",
   "scripts": {
     "build": "npx tsc",
-    "start": "node server.ts"
+    "start": "nodemon server.ts"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,9 @@
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/node": "^18.11.19",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.33.0",
     "ts-node": "^10.9.1"
   }
 }
