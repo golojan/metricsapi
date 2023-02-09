@@ -33,5 +33,6 @@ if (mongoose.models.Students) {
   delete mongoose.models.Students;
 }
 
-const Students = mongoose.model('Students', studentsScheme);
+const Students =
+  mongoose.models.Students || mongoose.model("Students", studentsScheme);
 export default Students;

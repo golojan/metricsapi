@@ -18,5 +18,7 @@ const reactionsScheme = new mongoose.Schema(
 if (mongoose.models.UserReactions) {
   delete mongoose.models.UserReactions;
 }
-const UserReactions = mongoose.model('UserReactions', reactionsScheme);
+const UserReactions =
+  mongoose.models.UserReactions ||
+  mongoose.model("UserReactions", reactionsScheme);
 export default UserReactions;

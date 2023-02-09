@@ -28,5 +28,6 @@ if (mongoose.models.PostFeeds) {
   delete mongoose.models.PostFeeds;
 }
 
-const PostFeeds = mongoose.model('PostFeeds', postScheme);
+const PostFeeds =
+  mongoose.models.PostFeeds || mongoose.model("PostFeeds", postScheme);
 export default PostFeeds;

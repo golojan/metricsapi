@@ -244,3 +244,5 @@ facultiesRouter.get("/:schoolId/stat", async (req: Request, res: Response) => {
     count: count,
   });
 });
+
+export default facultiesRouter;

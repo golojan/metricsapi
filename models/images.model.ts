@@ -16,5 +16,5 @@ const imagesScheme = new mongoose.Schema(
 if (mongoose.models.Images) {
   delete mongoose.models.Images;
 }
-const Images = mongoose.model('Images', imagesScheme);
+const Images = mongoose.models.Images || mongoose.model("Images", imagesScheme);
 export default Images;

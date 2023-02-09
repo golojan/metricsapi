@@ -16,5 +16,7 @@ const universitiesScheme = new mongoose.Schema(
 if (mongoose.models.Universities) {
   delete mongoose.models.Universities;
 }
-const Universities = mongoose.model("Universities", universitiesScheme);
+const Universities =
+  mongoose.models.Universities ||
+  mongoose.model("Universities", universitiesScheme);
 export default Universities;

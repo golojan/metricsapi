@@ -17,5 +17,5 @@ const rolesSchema = new mongoose.Schema(
 if (mongoose.models.Roles) {
   delete mongoose.models.Roles;
 }
-const Roles = mongoose.model("Roles", rolesSchema);
+const Roles = mongoose.models.Roles || mongoose.model("Roles", rolesSchema);
 export default Roles;

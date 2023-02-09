@@ -1,4 +1,4 @@
-import { AccountTypes, MembershipTypes } from "libs/interfaces";
+import { AccountTypes, MembershipTypes } from "../libs/interfaces";
 import { dbCon } from "../models";
 import { Router, Request, Response } from "express";
 const studentsRouter = Router();
@@ -327,3 +327,5 @@ studentsRouter.get("/update/:id/ajax", async (req: Request, res: Response) => {
     res.status(400).json({ status: false, error: "No Profile updated" });
   }
 });
+
+export default studentsRouter;

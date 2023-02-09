@@ -67,7 +67,7 @@ accountsRouter.get("/list", async (req: Request, res: Response) => {
 });
 
 // info
-accountsRouter.get("/info", async (req: Request, res: Response) => {
+accountsRouter.post("/info", async (req: Request, res: Response) => {
   const catcher = (error: Error) =>
     res.status(400).json({ status: 0, error: error });
   const { token } = req.body;
@@ -97,7 +97,7 @@ accountsRouter.get("/info", async (req: Request, res: Response) => {
 
 // Profile
 
-accountsRouter.post("/:token/profile", async (req: Request, res: Response) => {
+accountsRouter.get("/:token/profile", async (req: Request, res: Response) => {
   const catcher = (error: Error) =>
     res.status(400).json({ status: 0, error: error });
   const { token } = req.params;
@@ -146,10 +146,11 @@ accountsRouter.post("/:token/profile", async (req: Request, res: Response) => {
 });
 
 // username
-accountsRouter.post("/:token/username", async (req: Request, res: Response) => {
+accountsRouter.get("/:token/username", async (req: Request, res: Response) => {
   const catcher = (error: Error) =>
     res.status(400).json({ status: 0, error: error });
   const { token } = req.params;
+  console.log(token);
   const { Accounts } = await dbCon();
   const account = await Accounts.findOne({ _id: token }).catch(catcher);
   if (account) {

@@ -19,8 +19,7 @@ if (mongoose.models.SchoolDepartments) {
   delete mongoose.models.SchoolDepartments;
 }
 
-const SchoolDepartments = mongoose.model(
-  'SchoolDepartments',
-  schoolDepartmentsScheme
-);
+const SchoolDepartments =
+  mongoose.models.SchoolDepartments ||
+  mongoose.model("SchoolDepartments", schoolDepartmentsScheme);
 export default SchoolDepartments;

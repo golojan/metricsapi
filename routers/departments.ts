@@ -203,7 +203,7 @@ departmentsRouter.get(
   async (req: Request, res: Response) => {
     const catcher = (error: Error) =>
       res.status(400).json({ status: 0, error: error });
-    const { schoolId } = req.query;
+    const { schoolId } = req.params;
     const { SchoolDepartments } = await dbCon();
 
     const departments: any = await SchoolDepartments.aggregate([
@@ -319,3 +319,5 @@ departmentsRouter.post(
     }
   }
 );
+
+export default departmentsRouter;

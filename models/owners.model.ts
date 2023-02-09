@@ -26,5 +26,5 @@ const ownerSchema = new mongoose.Schema(
 if( mongoose.models.Owners){
   delete mongoose.models.Owners;
 }
-const Owners = mongoose.model("Owners", ownerSchema);
+const Owners = mongoose.models.Owners || mongoose.model("Owners", ownerSchema);
 export default Owners;

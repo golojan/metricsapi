@@ -16,6 +16,8 @@ const membershipsSchema = new mongoose.Schema(
 if (mongoose.models.Memberships) {
   delete mongoose.models.Memberships;
 }
-const Memberships = mongoose.model('Memberships', membershipsSchema);
+const Memberships =
+  mongoose.models.Memberships ||
+  mongoose.model("Memberships", membershipsSchema);
 export default Memberships;
  

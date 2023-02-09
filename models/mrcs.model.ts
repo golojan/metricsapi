@@ -65,5 +65,5 @@ if (mongoose.models.MRCS) {
   delete mongoose.models.MRCS;
 }
 
-const MRCS = mongoose.model('MRCS', mrcsScheme);
+const MRCS = mongoose.models.MRCS || mongoose.model("MRCS", mrcsScheme);
 export default MRCS;

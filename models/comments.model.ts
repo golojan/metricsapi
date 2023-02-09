@@ -21,5 +21,7 @@ const commentsScheme = new mongoose.Schema(
 if (mongoose.models.PostFeedComments) {
   delete mongoose.models.PostFeedComments;
 }
-const PostFeedComments = mongoose.model('PostFeedComments', commentsScheme);
+const PostFeedComments =
+  mongoose.models.PostFeedComments ||
+  mongoose.model("PostFeedComments", commentsScheme);
 export default PostFeedComments;

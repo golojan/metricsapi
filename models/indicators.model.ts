@@ -25,5 +25,6 @@ const indicatorsSchema = new mongoose.Schema(
 if (mongoose.models.Indicators) {
   delete mongoose.models.Indicators;
 }
-const Indicators = mongoose.model('Indicators', indicatorsSchema);
+const Indicators =
+  mongoose.models.Indicators || mongoose.model("Indicators", indicatorsSchema);
 export default Indicators;
