@@ -6,13 +6,13 @@ const schoolDepartmentsScheme = new mongoose.Schema(
     schoolId: { type: String, required: true },
     facultyId: { type: String, required: true },
     departmentId: { type: String, required: true, unique: true },
-    departmentName: { type: String, required: true, unique: true },
+    departmentName: { type: String, required: true },
     departmentCode: { type: String, required: true },
     fullAccreditation: { type: Boolean, default: false },
     departmentDescription: String,
     headOfDepartment: String,
   },
-  { timestamps: true },
+  { timestamps: true }
 );
 
 if (mongoose.models.SchoolDepartments) {

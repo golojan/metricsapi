@@ -110,6 +110,7 @@ departmentsRouter.post(
         departmentId: departmentId,
         facultyId: facultyId,
       }).catch(catcher);
+
       if (department) {
         res.status(200).json({
           status: true,

@@ -1,5 +1,10 @@
 import mongoose from 'mongoose';
-import { AccountTypes, Gender, MembershipTypes } from "../libs/interfaces";
+import {
+  AccountTypes,
+  Gender,
+  AccountRank,
+  MembershipTypes,
+} from "../libs/interfaces";
 
 mongoose.Promise = global.Promise;
 
@@ -36,6 +41,12 @@ const accountsScheme = new mongoose.Schema(
       enum: Object.values(MembershipTypes),
       required: true,
       default: MembershipTypes.LOCAL,
+    },
+    accountRank: {
+      type: String,
+      enum: Object.values(AccountRank),
+      required: true,
+      default: AccountRank.LECTURER,
     },
     picture: {
       type: String,

@@ -47,6 +47,25 @@ schoolsRouter.get("/list", async (req: Request, res: Response) => {
   }
 });
 
+//  Schools Info POST
+schoolsRouter.get("/info", async (req: Request, res: Response) => {
+  const catcher = (error: Error) =>
+    res.status(400).json({ status: 0, error: error });
+  const domain = req.body.domain;
+  const { Schools } = await dbCon();
+  const school = await Schools.findOne({ domain: domain }).catch(catcher);
+  if (school) {
+    res.status(200).json({
+      status: true,
+      domain: domain,
+      schoolId: school._id,
+      data: school,
+    });
+  } else {
+    res.status(400).json({ status: false });
+  }
+});
+
 // List Schools with schoolId
 schoolsRouter.get("/:schoolId/info", async (req: Request, res: Response) => {
   const catcher = (error: Error) =>
@@ -508,7 +527,197 @@ schoolsRouter.get("/:schoolId/stats", async (req: Request, res: Response) => {
   } else {
     res.status(400).json({ status: false, error: "No Statistics returned" });
   }
-});  
+});
 
+schoolsRouter.get(
+  "/:schoolId/accounts",
+  async (req: Request, res: Response) => {
+    const catcher = (error: Error) =>
+      res.status(400).json({ status: 0, error: error });
+    const schoolId = req.params.schoolId;
+    const { Accounts } = await dbCon();
+    const accounts = await Accounts.find({ schoolId: schoolId }).catch(catcher);
+    if (accounts) {
+      res.status(200).json({
+        status: true,
+        data: accounts,
+      });
+    } else {
+      res.status(404).json({ status: false, err: "Account not found" });
+    }
+  }
+);
+
+schoolsRouter.post(
+  "/:schoolId/dump-mrcs",
+  async (req: Request, res: Response) => {
+    const catcher = (error: Error) =>
+      res.status(400).json({ status: 0, error: error });
+    const schoolId = req.params.schoolId;
+    const { mrcsData } = req.body;
+    const { MRCs } = await dbCon();
+    const saved = await MRCs.insertMany(mrcsData).catch(catcher);
+    if (saved) {
+      res.status(200).json({
+        status: true,
+        ...saved,
+      });
+    } else {
+      res.status(404).json({ status: false, err: "Account not found" });
+    }
+  }
+);
+
+schoolsRouter.get("/:schoolId/history", async (req: Request, res: Response) => {
+  const catcher = (error: Error) =>
+    res.status(400).json({ status: 0, error: error });
+  const schoolId = req.params.schoolId;
+  const { Schools } = await dbCon();
+  const school = await Schools.findOne({ _id: schoolId }).catch(catcher);
+  if (school) {
+    res.status(200).json({
+      status: true,
+      data: school.history,
+    });
+  } else {
+    res.status(404).json({ status: false, err: "Account not found" });
+  }
+});
+
+schoolsRouter.get("/:schoolId/mrcs", async (req: Request, res: Response) => {
+  const catcher = (error: Error) =>
+    res.status(400).json({ status: 0, error: error });
+  const schoolId = req.params.schoolId;
+  const { MRCs } = await dbCon();
+  const mrcs = await MRCs.find({ schoolId: schoolId }).catch(catcher);
+  if (mrcs) {
+    res.status(200).json({
+      status: true,
+      data: mrcs,
+    });
+  } else {
+    res.status(404).json({ status: false, err: "MRCS Accounts not found" });
+  }
+});
+
+schoolsRouter.post(
+  "/:schoolId/save-settings",
+  async (req: Request, res: Response) => {
+    const catcher = (error: Error) =>
+      res.status(400).json({ status: 0, error: error });
+    const schoolId = req.params.schoolId;
+    const {
+      citationsWeight,
+      hindexWeight,
+      i10hindexWeight,
+      googlePresenceWeight,
+      internationalStaffWeight,
+      internationalStudentsWeight,
+      internationalCollaborationWeight,
+      graduationOutputWeight,
+      fullProfessorsWeight,
+      phdStudentsWeight,
+      accreditationWeight,
+      teacherStudentRatioWeight,
+      femaleStaffWeight,
+      femaleStudentsWeight,
+      profsReadersWeight,
+      seniorLecturersWeight,
+      otherLecturersWeight,
+    } = req.body;
+
+    const newSettings = {
+      citationsWeight: citationsWeight,
+      hindexWeight: hindexWeight,
+      i10hindexWeight: i10hindexWeight,
+      googlePresenceWeight: googlePresenceWeight,
+      internationalStaffWeight: internationalStaffWeight,
+      internationalStudentsWeight: internationalStudentsWeight,
+      internationalCollaborationWeight: internationalCollaborationWeight,
+      graduationOutputWeight: graduationOutputWeight,
+      fullProfessorsWeight: fullProfessorsWeight,
+      phdStudentsWeight: phdStudentsWeight,
+      accreditationWeight: accreditationWeight,
+      teacherStudentRatioWeight: teacherStudentRatioWeight,
+      femaleStaffWeight: femaleStaffWeight,
+      femaleStudentsWeight: femaleStudentsWeight,
+      profsReadersWeight: profsReadersWeight,
+      seniorLecturersWeight: seniorLecturersWeight,
+      otherLecturersWeight: otherLecturersWeight,
+    };
+
+    const { Schools } = await dbCon();
+    const saved = await Schools.findOneAndUpdate(
+      { _id: schoolId },
+      {
+        settings: newSettings,
+      }
+    ).catch(catcher);
+
+    console.log({ saved });
+
+    if (saved) {
+      res.status(200).json({
+        status: true,
+        ...saved,
+      });
+    } else {
+      res.status(404).json({ status: false, err: "Account not found" });
+    }
+  }
+);
+
+schoolsRouter.post("/:schoolId/save", async (req: Request, res: Response) => {
+  const catcher = (error: Error) =>
+    res.status(400).json({ status: 0, error: error });
+  const schoolId = req.params.schoolId;
+  const { lecturers, students, school, name, allschools } = req.body;
+  const { Schools } = await dbCon();
+  const saved = await Schools.findOneAndUpdate(
+    { _id: schoolId },
+    {
+      $push: {
+        history: {
+          name: name,
+          lecturers: lecturers,
+          students: students,
+          googlePresence: school.googlePresence,
+          citations: school.citations,
+          hindex: school.hindex,
+          i10hindex: school.i10hindex,
+          allschools: allschools,
+        },
+      },
+    }
+  ).catch(catcher);
+  if (saved) {
+    res.status(200).json({
+      status: true,
+      data: saved,
+    });
+  } else {
+    res.status(404).json({ status: false, err: "Account not found" });
+  }
+});
+
+schoolsRouter.get(
+  "/:schoolId/settings",
+  async (req: Request, res: Response) => {
+    const catcher = (error: Error) =>
+      res.status(400).json({ status: 0, error: error });
+    const schoolId = req.params.schoolId;
+    const { Schools } = await dbCon();
+    const school = await Schools.findOne({ _id: schoolId }).catch(catcher);
+    if (school) {
+      const settings = school.settings;
+      res.status(200).json({
+        status: true,
+        ...settings,
+      });
+    } else {
+      res.status(404).json({ status: false, err: "Schools not found" });
+    }
+  }
+);
 
 export default schoolsRouter;
