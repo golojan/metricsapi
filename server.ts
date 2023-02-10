@@ -68,8 +68,7 @@ const allowedOrigins: string[] = [
 server.use(
   cors({
     optionsSuccessStatus: 200,
-    credentials: true,
-    origin: allowedOrigins,
+    origin: "*",
     methods: "POST, GET",
   })
 );
