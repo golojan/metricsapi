@@ -1,11 +1,16 @@
-import {
-  AccountTypes,
-  MembershipTypes,
-  SchoolSettingsType,
-} from "../libs/interfaces";
+import { AccountTypes } from "../libs/interfaces";
 import { dbCon } from "../models";
-import { Router, Request, Response } from "express";
+import { Router, Request, Response, NextFunction } from "express";
 const lecturersRouter = Router();
+
+lecturersRouter.use((req: Request, res: Response, next: NextFunction) => {
+  res.set("Access-Control-Allow-Origin", "*");
+  res.set(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
 
 lecturersRouter.all("/", (req: Request, res: Response) => {
   res.send({

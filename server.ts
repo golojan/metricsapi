@@ -69,7 +69,8 @@ server.use(
   cors({
     optionsSuccessStatus: 200,
     origin: "*",
-    methods: "POST, GET",
+    methods: ["GET", "POST"],
+    preflightContinue: false,
   })
 );
 
@@ -86,10 +87,9 @@ server.use("/departments", departmentsRouter);
 server.use("/lecturers", lecturersRouter);
 server.use("/students", studentsRouter);
 server.use("/metrics", openaiRouter);
-
-
-
 server.use("/", homeRouter);
+
+
 
 const port = process.env.PORT || 3000;
 server.listen(port, () => {
