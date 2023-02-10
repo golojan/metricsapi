@@ -51,31 +51,24 @@ server.use(express.urlencoded({ extended: true }));
 
 const allowedOrigins: string[] = [
   "https://api.metrics.ng",
+  "https://api.metrics.ng/",
   "https://app.metrics.ng",
+  "https://app.metrics.ng/",
   "https://esut.metrics.ng",
+  "https://esut.metrics.ng/",
   "https://owner.metrics.ng",
+  "https://owner.metrics.ng/",
   "https://metrics.ng",
+  "https://metrics.ng/",
   "http://localhost:4200",
+  "http://localhost:4200/",
 ];
 
 server.use(
   cors({
     optionsSuccessStatus: 200,
     credentials: true,
-    origin: (
-      origin: string | undefined,
-      callback: (err: Error | null, allow?: boolean) => void
-    ) => {
-      if (!origin) {
-        return callback(null, true);
-      }
-      if (allowedOrigins.indexOf(origin) === -1) {
-        const msg =
-          "The CORS policy for this site does not allow access from the specified Origin.";
-        return callback(new Error(msg), false);
-      }
-      return callback(null, true);
-    },
+    origin: allowedOrigins,
   })
 );
 
