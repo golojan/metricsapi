@@ -1,6 +1,6 @@
 import { AccountTypes } from "../libs/interfaces";
 import { dbCon } from "../models";
-import { Router, Request, Response } from "express";
+import { Router, Request, Response, NextFunction } from "express";
 const studentsRouter = Router();
 
 studentsRouter.use((req: Request, res: Response, next: NextFunction) => {

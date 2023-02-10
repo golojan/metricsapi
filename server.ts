@@ -52,23 +52,17 @@ server.use(express.urlencoded({ extended: true }));
 
 const allowedOrigins: string[] = [
   "https://api.metrics.ng",
-  "https://api.metrics.ng/",
   "https://app.metrics.ng",
-  "https://app.metrics.ng/",
   "https://esut.metrics.ng",
-  "https://esut.metrics.ng/",
   "https://owner.metrics.ng",
-  "https://owner.metrics.ng/",
   "https://metrics.ng",
-  "https://metrics.ng/",
   "http://localhost:4200",
-  "http://localhost:4200/",
 ];
 
 server.use(
   cors({
     optionsSuccessStatus: 200,
-    origin: "*",
+    origin: allowedOrigins,
     methods: ["GET", "POST"],
     preflightContinue: false,
   })
