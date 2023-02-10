@@ -50,6 +50,8 @@ server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 
 const allowedOrigins: string[] = [
+  "https://api.metrics.ng",
+  "https://app.metrics.ng",
   "https://esut.metrics.ng",
   "https://owner.metrics.ng",
   "https://metrics.ng",
