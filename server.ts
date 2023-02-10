@@ -64,13 +64,6 @@ server.use(
     optionsSuccessStatus: 200,
     origin: allowedOrigins,
     methods: ["GET", "POST"],
-    preflightContinue: false,
-  })
-);
-
-server.use(
-  helmet({
-    contentSecurityPolicy: false,
   })
 );
 
