@@ -25,6 +25,7 @@
     "helmet": "^6.0.1",
     "mongoose": "^6.7.2",
     "nodemon": "^2.0.20",
+    "openai": "^3.1.0",
     "serpapi": "^1.1.0"
   },
   "devDependencies": {

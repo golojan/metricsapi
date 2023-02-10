@@ -16,7 +16,7 @@ import departmentsRouter from "./routers/departments";
 import facultiesRouter from "./routers/faculties";
 import lecturersRouter from "./routers/lecturers";
 import studentsRouter from "./routers/students";
-
+import openaiRouter from "./routers/metrics";
 
 // if (cluster.isPrimary) {
 //   console.log(`Primary ${process.pid} is running`);
@@ -45,6 +45,7 @@ import studentsRouter from "./routers/students";
 //   });
 // } else {
 // }
+
 const server: Express = express();
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
@@ -69,6 +70,7 @@ server.use(
     optionsSuccessStatus: 200,
     credentials: true,
     origin: allowedOrigins,
+    methods: "POST, GET",
   })
 );
 
@@ -84,6 +86,10 @@ server.use("/faculties", facultiesRouter);
 server.use("/departments", departmentsRouter);
 server.use("/lecturers", lecturersRouter);
 server.use("/students", studentsRouter);
+server.use("/metrics", openaiRouter);
+
+
+
 server.use("/", homeRouter);
 
 const port = process.env.PORT || 3000;
