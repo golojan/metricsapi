@@ -23,6 +23,7 @@ const accountsScheme = new mongoose.Schema(
     },
     role: {
       type: String,
+      default: "user",
     },
     facultyId: {
       type: String,
