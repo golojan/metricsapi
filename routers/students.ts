@@ -114,44 +114,44 @@ studentsRouter.get(
               },
             },
           },
-          hindexPerCapita: {
-            $cond: {
-              if: {
-                $or: [
-                  { $eq: ["$firstPublicationYear", 0] },
-                  { $eq: ["$hindex", 0] },
-                ],
-              },
-              then: 0,
-              else: {
-                $divide: [
-                  "$hindex",
-                  {
-                    $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
-                  },
-                ],
-              },
-            },
-          },
-          i10hindexPerCapita: {
-            $cond: {
-              if: {
-                $or: [
-                  { $eq: ["$firstPublicationYear", 0] },
-                  { $eq: ["$i10hindex", 0] },
-                ],
-              },
-              then: 0,
-              else: {
-                $divide: [
-                  "$i10hindex",
-                  {
-                    $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
-                  },
-                ],
-              },
-            },
-          },
+          // hindexPerCapita: {
+          //   $cond: {
+          //     if: {
+          //       $or: [
+          //         { $eq: ["$firstPublicationYear", 0] },
+          //         { $eq: ["$hindex", 0] },
+          //       ],
+          //     },
+          //     then: 0,
+          //     else: {
+          //       $divide: [
+          //         "$hindex",
+          //         {
+          //           $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
+          //         },
+          //       ],
+          //     },
+          //   },
+          // },
+          // i10hindexPerCapita: {
+          //   $cond: {
+          //     if: {
+          //       $or: [
+          //         { $eq: ["$firstPublicationYear", 0] },
+          //         { $eq: ["$i10hindex", 0] },
+          //       ],
+          //     },
+          //     then: 0,
+          //     else: {
+          //       $divide: [
+          //         "$i10hindex",
+          //         {
+          //           $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
+          //         },
+          //       ],
+          //     },
+          //   },
+          // },
         },
       },
     ]).catch(catcher);
