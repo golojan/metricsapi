@@ -106,6 +106,8 @@ studentsRouter.get(
                 $or: [
                   { $eq: ["$citations", 0] },
                   { $eq: ["$totalPublications", 0] },
+                  { $not: { $exists: "$citations" } },
+                  { $not: { $exists: "$totalPublications" } },
                 ],
               },
               then: 0,
@@ -120,6 +122,8 @@ studentsRouter.get(
                 $or: [
                   { $eq: ["$hindex", 0] },
                   { $eq: ["$firstPublicationYear", 0] },
+                  { $not: { $exists: "$hindex" } },
+                  { $not: { $exists: "$firstPublicationYear" } },
                 ],
               },
               then: 0,
@@ -139,6 +143,8 @@ studentsRouter.get(
                 $or: [
                   { $eq: ["$i10hindex", 0] },
                   { $eq: ["$firstPublicationYear", 0] },
+                  { $not: { $exists: "$i10hindex" } },
+                  { $not: { $exists: "$firstPublicationYear" } },
                 ],
               },
               then: 0,
