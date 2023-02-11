@@ -100,64 +100,6 @@ studentsRouter.get(
           citations: 1,
           hindex: 1,
           i10hindex: 1,
-          citationsPerCapita: {
-            $cond: {
-              if: {
-                $or: [
-                  { $eq: ["$citations", 0] },
-                  { $eq: ["$totalPublications", 0] },
-                  { $not: { $exists: "$citations" } },
-                  { $not: { $exists: "$totalPublications" } },
-                ],
-              },
-              then: 0,
-              else: {
-                $divide: ["$citations", "$totalPublications"],
-              },
-            },
-          },
-          hindexPerCapita: {
-            $cond: {
-              if: {
-                $or: [
-                  { $eq: ["$hindex", 0] },
-                  { $eq: ["$firstPublicationYear", 0] },
-                  { $not: { $exists: "$hindex" } },
-                  { $not: { $exists: "$firstPublicationYear" } },
-                ],
-              },
-              then: 0,
-              else: {
-                $divide: [
-                  "$hindex",
-                  {
-                    $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
-                  },
-                ],
-              },
-            },
-          },
-          i10hindexPerCapita: {
-            $cond: {
-              if: {
-                $or: [
-                  { $eq: ["$i10hindex", 0] },
-                  { $eq: ["$firstPublicationYear", 0] },
-                  { $not: { $exists: "$i10hindex" } },
-                  { $not: { $exists: "$firstPublicationYear" } },
-                ],
-              },
-              then: 0,
-              else: {
-                $divide: [
-                  "$i10hindex",
-                  {
-                    $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
-                  },
-                ],
-              },
-            },
-          },
         },
       },
     ]).catch(catcher);
