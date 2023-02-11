@@ -99,6 +99,8 @@ lecturersRouter.get(
                 $or: [
                   { $eq: ["$citations", 0] },
                   { $eq: ["$totalPublications", 0] },
+                  { $not: { $exists: "$citations" } },
+                  { $not: { $exists: "$totalPublications" } },
                 ],
               },
               then: 0,
@@ -107,13 +109,14 @@ lecturersRouter.get(
               },
             },
           },
-
           hindexPerCapita: {
             $cond: {
               if: {
                 $or: [
                   { $eq: ["$hindex", 0] },
                   { $eq: ["$firstPublicationYear", 0] },
+                  { $not: { $exists: "$hindex" } },
+                  { $not: { $exists: "$firstPublicationYear" } },
                 ],
               },
               then: 0,
@@ -127,26 +130,27 @@ lecturersRouter.get(
               },
             },
           },
-
-          // i10hindexPerCapita: {
-          //   $cond: {
-          //     if: {
-          //       $or: [
-          //         { $eq: ["$i10hindex", 0] },
-          //         { $eq: ["$firstPublicationYear", 0] },
-          //       ],
-          //     },
-          //     then: 0,
-          //     else: {
-          //       $divide: [
-          //         "$i10hindex",
-          //         {
-          //           $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
-          //         },
-          //       ],
-          //     },
-          //   },
-          // },
+          i10hindexPerCapita: {
+            $cond: {
+              if: {
+                $or: [
+                  { $eq: ["$i10hindex", 0] },
+                  { $eq: ["$firstPublicationYear", 0] },
+                  { $not: { $exists: "$i10hindex" } },
+                  { $not: { $exists: "$firstPublicationYear" } },
+                ],
+              },
+              then: 0,
+              else: {
+                $divide: [
+                  "$i10hindex",
+                  {
+                    $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
+                  },
+                ],
+              },
+            },
+          },
         },
       },
     ]).catch(catcher);
