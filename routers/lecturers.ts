@@ -95,6 +95,46 @@ lecturersRouter.get(
           i10hindex: 1,
         },
       },
+      {
+        $project: {
+          schoolId: 1,
+          picture: 1,
+          username: 1,
+          email: 1,
+          mobile: 1,
+          firstname: 1,
+          lastname: 1,
+          googlePresence: 1,
+          membershipType: 1,
+          isPHD: 1,
+          isPGD: 1,
+          isReader: 1,
+          isFellow: 1,
+          isFullProfessor: 1,
+          firstPublicationYear: 1,
+          lastPublicationYear: 1,
+          totalPublications: 1,
+          searchMetadata: 1,
+          fullname: 1,
+          citations: 1,
+          hindex: 1,
+          i10hindex: 1,
+          citationsPerCapita: {
+            $cond: {
+              if: {
+                $or: [
+                  { $eq: ["$citations", 0] },
+                  { $eq: ["$totalPublications", 0] },
+                ],
+              },
+              then: 0,
+              else: {
+                $divide: ["$citations", "$totalPublications"],
+              },
+            },
+          },
+        },
+      },
     ]).catch(catcher);
 
     if (lecturers) {
