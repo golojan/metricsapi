@@ -31,8 +31,17 @@ const allowedOrigins: string[] = [
 server.use(
   cors({
     optionsSuccessStatus: 200,
-    origin: allowedOrigins,
     methods: ["GET", "POST"],
+    origin: (origin, callback) => {
+      if (!origin) return callback(null, true);
+      if (allowedOrigins.indexOf(origin) === -1) {
+        const msg =
+          "The CORS policy for this site does not " +
+          "allow access from the specified Origin.";
+        return callback(new Error(msg), false);
+      }
+      return callback(null, true);
+    },
   })
 );
 
