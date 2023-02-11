@@ -107,25 +107,27 @@ lecturersRouter.get(
               },
             },
           },
-          // hindexPerCapita: {
-          //   $cond: {
-          //     if: {
-          //       $or: [
-          //         { $eq: ["$hindex", 0] },
-          //         { $eq: ["$firstPublicationYear", 0] },
-          //       ],
-          //     },
-          //     then: 0,
-          //     else: {
-          //       $divide: [
-          //         "$hindex",
-          //         {
-          //           $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
-          //         },
-          //       ],
-          //     },
-          //   },
-          // },
+
+          hindexPerCapita: {
+            $cond: {
+              if: {
+                $or: [
+                  { $eq: ["$hindex", 0] },
+                  { $eq: ["$firstPublicationYear", 0] },
+                ],
+              },
+              then: 0,
+              else: {
+                $divide: [
+                  "$hindex",
+                  {
+                    $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
+                  },
+                ],
+              },
+            },
+          },
+
           // i10hindexPerCapita: {
           //   $cond: {
           //     if: {
