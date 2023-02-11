@@ -133,25 +133,25 @@ studentsRouter.get(
               },
             },
           },
-          // i10hindexPerCapita: {
-          //   $cond: {
-          //     if: {
-          //       $or: [
-          //         { $eq: ["$i10hindex", 0] },
-          //         { $eq: ["$firstPublicationYear", 0] },
-          //       ],
-          //     },
-          //     then: 0,
-          //     else: {
-          //       $divide: [
-          //         "$i10hindex",
-          //         {
-          //           $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
-          //         },
-          //       ],
-          //     },
-          //   },
-          // },
+          i10hindexPerCapita: {
+            $cond: {
+              if: {
+                $or: [
+                  { $eq: ["$i10hindex", 0] },
+                  { $eq: ["$firstPublicationYear", 0] },
+                ],
+              },
+              then: 0,
+              else: {
+                $divide: [
+                  "$i10hindex",
+                  {
+                    $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
+                  },
+                ],
+              },
+            },
+          },
         },
       },
     ]).catch(catcher);
