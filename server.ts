@@ -19,19 +19,19 @@ const server: Express = express();
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 
-// const allowedOrigins: string[] = [
-//   "https://api.metrics.ng",
-//   "https://app.metrics.ng",
-//   "https://esut.metrics.ng",
-//   "https://owner.metrics.ng",
-//   "https://metrics.ng",
-//   "http://localhost:4200",
-// ];
+const allowedOrigins: string[] = [
+  "https://api.metrics.ng",
+  "https://app.metrics.ng",
+  "https://esut.metrics.ng",
+  "https://owner.metrics.ng",
+  "https://metrics.ng",
+  "http://localhost:4200",
+];
 
 server.use(
   cors({
     optionsSuccessStatus: 200,
-    origin: "https://esut.metrics.ng",
+    origin: allowedOrigins,
     methods: ["GET", "POST"],
   })
 );
