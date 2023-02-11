@@ -100,20 +100,20 @@ studentsRouter.get(
           citations: 1,
           hindex: 1,
           i10hindex: 1,
-          // citationsPerCapita: {
-          //   $cond: {
-          //     if: {
-          //       $or: [
-          //         { $eq: ["$citations", 0] },
-          //         { $eq: ["$totalPublications", 0] },
-          //       ],
-          //     },
-          //     then: 0,
-          //     else: {
-          //       $divide: ["$citations", "$totalPublications"],
-          //     },
-          //   },
-          // },
+          citationsPerCapita: {
+            $cond: {
+              if: {
+                $or: [
+                  { $eq: ["$citations", 0] },
+                  { $eq: ["$totalPublications", 0] },
+                ],
+              },
+              then: 0,
+              else: {
+                $divide: ["$citations", "$totalPublications"],
+              },
+            },
+          },
           // hindexPerCapita: {
           //   $cond: {
           //     if: {
