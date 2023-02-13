@@ -100,14 +100,12 @@ const accountsScheme = new mongoose.Schema(
     scopusId: { type: String },
     orcidId: { type: String },
     googlePresence: { type: Number, default: 0 },
-
     citations: { type: Number, default: 0 },
     hindex: { type: Number, default: 0 },
     i10hindex: { type: Number, default: 0 },
     totalPublications: { type: Number, default: 0 },
     firstPublicationYear: { type: Number, default: 0 },
     lastPublicationYear: { type: Number, default: 0 },
-
     publications: [
       {
         title: String,

@@ -100,58 +100,85 @@ studentsRouter.get(
           citations: 1,
           hindex: 1,
           i10hindex: 1,
-          // citationsPerCapita: {
-          //   $cond: {
-          //     if: {
-          //       $or: [
-          //         { $eq: ["$totalPublications", 0] },
-          //         { $eq: ["$citations", 0] },
-          //       ],
-          //     },
-          //     then: 0,
-          //     else: {
-          //       $divide: ["$citations", "$totalPublications"],
-          //     },
-          //   },
-          // },
-          // hindexPerCapita: {
-          //   $cond: {
-          //     if: {
-          //       $or: [
-          //         { $eq: ["$firstPublicationYear", 0] },
-          //         { $eq: ["$hindex", 0] },
-          //       ],
-          //     },
-          //     then: 0,
-          //     else: {
-          //       $divide: [
-          //         "$hindex",
-          //         {
-          //           $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
-          //         },
-          //       ],
-          //     },
-          //   },
-          // },
-          // i10hindexPerCapita: {
-          //   $cond: {
-          //     if: {
-          //       $or: [
-          //         { $eq: ["$firstPublicationYear", 0] },
-          //         { $eq: ["$i10hindex", 0] },
-          //       ],
-          //     },
-          //     then: 0,
-          //     else: {
-          //       $divide: [
-          //         "$i10hindex",
-          //         {
-          //           $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
-          //         },
-          //       ],
-          //     },
-          //   },
-          // },
+          citationsPerCapita: {
+            $cond: {
+              if: {
+                $or: [
+                  { $eq: ["$totalPublications", 0] },
+                  { $eq: ["$citations", 0] },
+                ],
+              },
+              then: 0,
+              else: {
+                $divide: ["$citations", "$totalPublications"],
+              },
+            },
+          },
+          hindexPerCapita: {
+            $cond: {
+              if: {
+                $or: [
+                  { $eq: ["$firstPublicationYear", 0] },
+                  { $eq: ["$hindex", 0] },
+                  { $lt: [{ $year: new Date() }, "$firstPublicationYear"] },
+                  {
+                    $lte: [
+                      {
+                        $subtract: [
+                          { $year: new Date() },
+                          "$firstPublicationYear",
+                        ],
+                      },
+                      0,
+                    ],
+                  },
+                  { $eq: [{ $type: "$firstPublicationYear" }, "missing"] },
+                ],
+              },
+              then: 0,
+              else: {
+                $divide: [
+                  "$hindex",
+                  {
+                    $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
+                  },
+                ],
+              },
+            },
+          },
+
+          i10hindexPerCapita: {
+            $cond: {
+              if: {
+                $or: [
+                  { $eq: ["$firstPublicationYear", 0] },
+                  { $eq: ["$i10hindex", 0] },
+                  { $lt: [{ $year: new Date() }, "$firstPublicationYear"] },
+                  {
+                    $lte: [
+                      {
+                        $subtract: [
+                          { $year: new Date() },
+                          "$firstPublicationYear",
+                        ],
+                      },
+                      0,
+                    ],
+                  },
+                  { $eq: [{ $type: "$firstPublicationYear" }, "missing"] },
+                ],
+              },
+              then: 0,
+              else: {
+                $divide: [
+                  "$i10hindex",
+                  {
+                    $subtract: [{ $year: new Date() }, "$firstPublicationYear"],
+                  },
+                ],
+              },
+            },
+          },
         },
       },
     ]).catch(catcher);
