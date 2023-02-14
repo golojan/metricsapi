@@ -93,6 +93,7 @@ lecturersRouter.get(
           citations: 1,
           hindex: 1,
           i10hindex: 1,
+
           citationsPerCapita: {
             $cond: {
               if: {
@@ -139,7 +140,6 @@ lecturersRouter.get(
               },
             },
           },
-
           i10hindexPerCapita: {
             $cond: {
               if: {

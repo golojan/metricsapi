@@ -3,6 +3,7 @@ import { dbCon } from "../models";
 import { Router, Request, Response } from "express";
 const accountsRouter = Router();
 import bcrypt from "bcryptjs";
+import validator from "validator";
 
 accountsRouter.all("/", (req: Request, res: Response) => {
   res.send({
@@ -13,41 +14,29 @@ accountsRouter.all("/", (req: Request, res: Response) => {
 
 accountsRouter.post("/login", async (req: Request, res: Response) => {
   const catcher = (error: Error) => res.status(400).json({ error });
-  const { username, password, domain } = req.body;
-  const { Accounts, Schools } = await dbCon();
-  // Get the School info with domain //
-  const school: any = await Schools.findOne({
-    domain: domain,
-  }).catch(catcher);
-  if (school) {
-    // Get the School info with domain //
-    await Accounts.findOne({
-      email: username,
-      schoolId: school._id,
-    })
-      .then((account: any) => {
-        if (account._id) {
-          const isPasswordValid = bcrypt.compareSync(
-            password,
-            account.password
-          );
-          if (isPasswordValid) {
-            res.status(200).json({
-              status: true,
-              token: account._id,
-              username: account.username,
-              domain: domain,
-              schoolId: account.schoolId,
-            });
-          } else {
-            res.status(400).json({ status: false, domain: domain });
-          }
+  const { username, password } = req.body;
+  const { Accounts } = await dbCon();
+  await Accounts.findOne({
+    email: username,
+  })
+    .then((account: any) => {
+      if (account._id) {
+        const isPasswordValid = bcrypt.compareSync(password, account.password);
+        if (isPasswordValid) {
+          res.status(200).json({
+            status: true,
+            token: account._id,
+            username: account.username,
+            schoolId: account.schoolId,
+          });
         } else {
-          res.status(400).json({ status: false, domain: domain });
+          res.status(400).json({ status: false });
         }
-      })
-      .catch(catcher);
-  }
+      } else {
+        res.status(400).json({ status: false });
+      }
+    })
+    .catch(catcher);
 });
 
 // List accounts
@@ -96,7 +85,6 @@ accountsRouter.post("/info", async (req: Request, res: Response) => {
 });
 
 // Profile
-
 accountsRouter.get("/:token/profile", async (req: Request, res: Response) => {
   const catcher = (error: Error) =>
     res.status(400).json({ status: 0, error: error });
@@ -161,6 +149,120 @@ accountsRouter.get("/:token/username", async (req: Request, res: Response) => {
     return;
   } else {
     res.status(400).json({ status: false, error: "Account not found" });
+    return;
+  }
+});
+
+accountsRouter.post("/checkmrcid", async (req: Request, res: Response) => {
+  const catcher = (error: Error) =>
+    res.status(400).json({ status: 0, error: error });
+  const { mrcId } = req.body;
+  const { MRCs } = await dbCon();
+  const mrcs = await MRCs.findOne({ mrcId: mrcId }).catch(catcher);
+  if (mrcs) {
+    res.status(200).json({
+      status: true,
+      data: mrcs,
+    });
+  } else {
+    res.status(400).json({ status: false, error: "MRCID does not exist" });
+  }
+});
+
+accountsRouter.post("/checkemail", async (req: Request, res: Response) => {
+  const catcher = (error: Error) =>
+    res.status(400).json({ status: 0, error: error });
+  const { email } = req.body;
+  const { Accounts } = await dbCon();
+  await Accounts.findOne({
+    email: email,
+  })
+    .then((account) => {
+      if (account) {
+        res.status(200).json({ status: true, error: "Email Exists" });
+        return;
+      } else {
+        res.status(400).json({ status: false, error: "Email id free" });
+        return;
+      }
+    })
+    .catch(catcher);
+});
+
+accountsRouter.post("/checkusername", async (req: Request, res: Response) => {
+  const catcher = (error: Error) =>
+    res.status(400).json({ status: 0, error: error });
+  const { username } = req.body;
+  if (validator.contains(username, "@")) {
+    res.status(400).json({ status: false, error: "Invalid Username" });
+    return;
+  }
+  const { Accounts } = await dbCon();
+  await Accounts.findOne({
+    username: username,
+  })
+    .then((account) => {
+      if (account) {
+        res.status(200).json({ status: true, error: "Username Exists" });
+        return;
+      } else {
+        res.status(400).json({ status: false, error: "Username id free" });
+        return;
+      }
+    })
+    .catch(catcher);
+});
+
+// REgister
+accountsRouter.post("/register", async (req: Request, res: Response) => {
+  const catcher = (error: Error) =>
+    res.status(400).json({ status: 0, error: error });
+
+  const {
+    mrcId,
+    regId,
+    username,
+    accountType,
+    firstname,
+    lastname,
+    middlename,
+    email,
+    gender,
+    password,
+    schoolId,
+    facultyId,
+    departmentId,
+    birthday,
+  } = req.body;
+  const { Accounts } = await dbCon();
+
+  // Encrypt Password//
+  const salt = bcrypt.genSaltSync(10);
+  const hashedPassword = bcrypt.hashSync(password, salt);
+  // Encrypt Password//
+
+  const created = await Accounts.create({
+    username: username,
+    mrcId: mrcId,
+    staffNumber: regId,
+    email: email,
+    firstname: firstname,
+    lastname: lastname,
+    middlename: middlename,
+    accountType: accountType,
+    gender: gender,
+    passwordKey: password,
+    password: hashedPassword,
+    schoolId: schoolId,
+    departmentId: departmentId,
+    facultyId: facultyId,
+    birthday: birthday,
+  }).catch(catcher);
+  if (created) {
+    res.status(200).json({ status: true, token: created._id });
+    return;
+  } else {
+    res.status(404).json({ status: false, err: "Error creating account" });
     return;
   }
 });

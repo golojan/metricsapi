@@ -14,6 +14,14 @@ const accountsScheme = new mongoose.Schema(
       type: String,
       unique: true,
     },
+    staffNumber: {
+      type: String,
+      unique: true,
+    },
+    mrcId: {
+      type: String,
+      unique: true,
+    },
     verified: {
       type: Boolean,
       unique: false,

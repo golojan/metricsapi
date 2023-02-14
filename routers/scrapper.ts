@@ -1,5 +1,5 @@
 import { Router, Request, Response } from "express";
-const scrapeRouter = Router();
+const scraperRouter = Router();
 
 import { GSRanking } from "../libs/interfaces";
 import type { GoogleScholarAuthorParameters } from "serpapi";
@@ -7,14 +7,14 @@ import { getJson } from "serpapi";
 
 // import serpiData from "../data/serpi.json";
 
-scrapeRouter.all("/", async (req: Request, res: Response) => {
+scraperRouter.all("/", async (req: Request, res: Response) => {
   res.send({
     status: false,
     error: "Invalid API GET call",
   });
 });
 
-scrapeRouter.get(
+scraperRouter.get(
   "/:stringId/google-scholar",
   async (req: Request, res: Response) => {
     const stringId = req.params.stringId;
@@ -76,4 +76,4 @@ scrapeRouter.get(
   }
 );
 
-export default scrapeRouter;
+export default scraperRouter;

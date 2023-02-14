@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { AccountTypes, Gender, MembershipTypes } from '../libs/interfaces';
+import { AccountTypes, Gender } from "../libs/interfaces";
 
 mongoose.Promise = global.Promise;
 const mrcsScheme = new mongoose.Schema(

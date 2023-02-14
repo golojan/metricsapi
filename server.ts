@@ -14,6 +14,7 @@ import facultiesRouter from "./routers/faculties";
 import lecturersRouter from "./routers/lecturers";
 import studentsRouter from "./routers/students";
 import openaiRouter from "./routers/metrics";
+import scraperRouter from "./routers/scrapper";
 
 const server: Express = express();
 server.use(express.json());
@@ -26,7 +27,7 @@ const allowedOrigins: string[] = [
   "https://owner.metrics.ng",
   "https://metrics.ng",
   "http://localhost:4200",
-]; 
+];
 
 server.use(
   cors({
@@ -52,6 +53,7 @@ server.use("/departments", departmentsRouter);
 server.use("/lecturers", lecturersRouter);
 server.use("/students", studentsRouter);
 server.use("/metrics", openaiRouter);
+server.use("/scrapper", scraperRouter);
 server.use("/", homeRouter);
 
 const port = process.env.PORT || 3000;
