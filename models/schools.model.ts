@@ -8,7 +8,7 @@ const schoolsScheme = new mongoose.Schema(
       type: String,
       default: '/assets/img/logo-icon.png',
     },
-    domain: { type: String },
+    domain: { type: String},
     name: { type: String },
     shortname: { type: String, unique: true },
     state: { type: String },

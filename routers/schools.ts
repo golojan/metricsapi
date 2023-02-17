@@ -30,7 +30,6 @@ schoolsRouter.get(
     }
   }
 );
-
 // List Schools
 schoolsRouter.get("/list", async (req: Request, res: Response) => {
   const catcher = (error: Error) =>
