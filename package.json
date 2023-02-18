@@ -6,7 +6,7 @@
   "main": "server.ts",
   "scripts": {
     "build": "npx tsc",
-    "start": "nodemon server.ts"
+    "start": "node server.ts"
   },
   "keywords": [],
   "author": "",
