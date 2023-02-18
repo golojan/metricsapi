@@ -1,4 +1,5 @@
 import { Gender, LecturerLevel, LecturerType, StudentType } from './enums';
+
 export interface IUserReactions {
   _id?: string;
   postFeedId?: string;

@@ -27,6 +27,7 @@ const allowedOrigins: string[] = [
   "https://owner.metrics.ng",
   "https://metrics.ng",
   "http://localhost:4200",
+  "http://localhost:40000",
 ];
 
 server.use(
